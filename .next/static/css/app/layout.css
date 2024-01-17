@@ -1029,6 +1029,10 @@ body {
 }
 @media (max-width: 639px) {
 
+  .sm\:h-40 {
+    height: 10rem;
+  }
+
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
