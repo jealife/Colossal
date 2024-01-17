@@ -12,7 +12,7 @@ export default function page() {
           className=''
             src={gif}
             width={400}
-            alt="Logo"
+            alt="Gif"
           />
           {/* <p className='text-slate-900 text-xl ' >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, enim voluptatum. Officiis excepturi quo est vitae in praesentium temporibus consectetur!
