@@ -1,5 +1,5 @@
 import React from 'react'
-import gif from '../../../public/assets/videos/Website Creator.gif'
+import design from '../../../public/assets/images/design.png'
 import Image from 'next/image'
 export default function page() {
   return (
@@ -9,8 +9,7 @@ export default function page() {
 
         <div className="content py-2 grid grid-cols-1 sm:grid-cols-1 items-center gap-4">
           <Image
-          className=''
-            src={gif}
+            src={design}
             width={400}
             alt="Gif"
           />
