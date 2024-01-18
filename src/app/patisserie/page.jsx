@@ -109,9 +109,9 @@ export default function page() {
         <div className="annonc-wrapper py-12 sm:py-6 w-full max-w-md sm:max-w-sm md:w-auto border border-solid border-gray-600 p-3 rounded-md text-center">
           <Link href='/programme' className='overflow-hidden w-96 object-cover '>
             <Image
-            src={gouteurs}
-            width={500}
-            className='rounded-md  object-cover duration-300'
+              src={gouteurs}
+              width={500}
+              className='rounded-md  object-cover duration-300'
             />
           </Link>
           <div className="content flex flex-col gap-4 items-center py-2 w-full max-w-md sm:max-w-sm">
