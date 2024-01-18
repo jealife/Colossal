@@ -16,10 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/patisserie/page.js"
     ],
-    "/not-found": [
+    "/programme/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/programme/page.js"
     ]
   }
 }

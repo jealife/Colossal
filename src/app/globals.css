@@ -27,3 +27,10 @@ body {
 .active{
   color: #F5D0FE;
 }
+
+.gouteurs{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../../public/assets/images/gouteurs.jpg');
+}
