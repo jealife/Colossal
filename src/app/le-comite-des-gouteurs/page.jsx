@@ -1,5 +1,6 @@
 import React from 'react'
 import comiteHero from '../../../public/assets/images/comite-hero.jpg'
+import eat from '../../../public/assets/images/eat.jpg'
 import Image from 'next/image'
 export default function page() {
     return (
@@ -36,6 +37,17 @@ export default function page() {
                         <br />
                         Vous aurez l’opportunité de goûter à des saveurs uniques que vous n’avez jamais goûter auparavant ou dont vous ne pouviez imaginer la combinaison 🤭
                     </p>
+                    <p className='text-slate-50 text-[18px] leading-[1.5em] font-light'>
+                        Vous pourriez même choisir à l’avance ce que vous voudriez avoir comme saveur lors de l’activité si vous êtes une personne engagée de Colossal Mind and Cake !
+                    </p>
+                    <div className="content py-2 flex h-full items-center gap-4">
+                        <Image
+                            src={eat}
+                            width={500}
+                            alt="Le comité es gouteurs"
+                            className="rounded-md"
+                        />
+                    </div>
                 </div>
             </div>
 
