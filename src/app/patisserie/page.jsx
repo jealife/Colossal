@@ -81,7 +81,7 @@ export default function page() {
           </Link>
           <div className="content flex flex-col gap-4 items-center py-2 w-full max-w-md sm:max-w-sm">
             <h2 className='text-slate-900 font-bold text-2xl'>
-              Le comminté des gouteurs
+              Le commité des gouteurs
             </h2>
             <Link href='/programme' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
               Voir l'évenement
