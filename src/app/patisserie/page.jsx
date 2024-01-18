@@ -84,7 +84,7 @@ export default function page() {
               Le commité des gouteurs
             </h2>
             <Link href='/programme' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
-              Voir l'évenement
+              Voir l'évènement
             </Link>
           </div>
         </div>
