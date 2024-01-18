@@ -118,7 +118,7 @@ export default function page() {
             <h2 className='text-slate-900 font-bold text-2xl'>
               Le commité des gouteurs
             </h2>
-            <Link href='/le-comite-des-gouteurs' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
+            <Link href='/le-comite-des-gouteurs' className="rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
               Voir l'évènement
             </Link>
           </div>
