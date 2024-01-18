@@ -906,6 +906,9 @@ video {
 .leading-\[1\.20em\] {
   line-height: 1.20em;
 }
+.leading-\[1\.5em\] {
+  line-height: 1.5em;
+}
 .tracking-tighter {
   letter-spacing: -0.05em;
 }
