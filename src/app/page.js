@@ -15,7 +15,7 @@ export default function Home() {
             >
               Colossal mind and cake </h1>
             <p className=" text-slate-300 text-[24px] leading-[1.2em] ">Pâtisserie & croissance personelle</p>
-            <Link href='/programme' className=" rounded-md font-semibold text-gray-950 px-3 py-2 bg-slate-50 w-max hover:bg-pink-950 duration-500 hover:text-slate-50  hover:text-slate-50 hover:shadow-lg hover:shadow-pink-200/30 ">
+            <Link href='/programme' className=" rounded-md font-semibold text-gray-950 px-3 py-2 bg-slate-50 w-max hover:bg-pink-950 duration-500  hover:text-slate-50 hover:shadow-lg hover:shadow-pink-200/30 ">
               Programme
             </Link>
           </div>
