@@ -24,6 +24,15 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #e8eaeb;
 }
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  background-color: #060606;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #500724;
+}
 .active{
   color: #EAB308;
 }
