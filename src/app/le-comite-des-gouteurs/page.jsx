@@ -3,7 +3,7 @@ import gouteur from '../../../public/assets/images/gouteur-comite.png'
 import Image from 'next/image'
 export default function page() {
   return (
-    <main  className="flex min-h-dvh  flex-col items-center justify-center p-24 md:pt-24 md:px-5 ">
+    <main  className="flex min-h-dvh  flex-col items-center justify-center p-24 md:pt-24 md:px-5 bg-pink-950">
 
       <div className="max-w-5xl w-full items-center justify-center font-mono text-sm flex flex-col gap-3">
 
