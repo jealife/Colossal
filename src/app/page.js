@@ -13,7 +13,7 @@ export default function Home() {
           <div class=" max-w-2xl md:w-full  text-pretty  text-slate-50 flex flex-col items-center gap-5 text-center ">
             <h1 className="  text-7xl md:text-[49px] font-bold tracking-tighter leading-[1em] "
             >
-              Colossal <span className='' >mind</span> and    <span className='text-yellow-500' >cake</span>
+              Colossal <span className='text-yellow-500' >mind</span> and    <span className='text-yellow-500' >cake</span>
             </h1>
             <p className=" text-slate-300 text-[24px] leading-[1.2em] ">Pâtisserie & croissance personelle</p>
             <Link href='/programme' className=" rounded-md font-semibold text-gray-950 px-3 py-2 bg-slate-50 w-max hover:bg-pink-950 duration-500  hover:text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 ">
