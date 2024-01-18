@@ -882,6 +882,9 @@ video {
 .font-thin {
   font-weight: 100;
 }
+.font-light {
+  font-weight: 300;
+}
 .leading-\[1\.2em\] {
   line-height: 1.2em;
 }

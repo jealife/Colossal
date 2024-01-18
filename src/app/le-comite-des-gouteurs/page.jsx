@@ -10,7 +10,7 @@ export default function page() {
             <h1 className='text-6xl text-slate-50 md:text-[49px] font-bold tracking-tighter leading-[1.25em] '>
                 Le comité des <span>Gouteurs</span>
             </h1>
-            <p className='text-slate-100 text-[16px] leading-[1.2em] font-thin'>
+            <p className='text-slate-50 text-[16px] leading-[1.2em] font-light'>
             Le comité des gouteurs est une activité que Colossal dans son volet Colossal Cake organise au moins une fois dans l’année.
             </p>
         </div>
