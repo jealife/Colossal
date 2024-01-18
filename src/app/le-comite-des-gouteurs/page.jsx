@@ -34,7 +34,8 @@ export default function page() {
                         C’est une expérience unique à ne pas rater !
                         <br />
                         <br />
-                        Vous aurez l’opportunité de goûter à des saveurs uniques que vous n’avez jamais goûter auparavant ou dont vous ne pouviez imaginer la combinaison🤭                    </p>
+                        Vous aurez l’opportunité de goûter à des saveurs uniques que vous n’avez jamais goûter auparavant ou dont vous ne pouviez imaginer la combinaison 🤭
+                    </p>
                 </div>
             </div>
 
