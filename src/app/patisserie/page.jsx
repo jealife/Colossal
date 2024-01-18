@@ -27,7 +27,7 @@ export default function page() {
             Réserves ton dessert dès maintenant et
             reçois ton formulaire pour personnaliser ta commande.
           </p>
-          <Link href='/programme' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
+          <Link href='https://wa.me/629109414' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
             Je commande
           </Link>
         </div>
