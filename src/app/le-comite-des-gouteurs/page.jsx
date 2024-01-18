@@ -24,11 +24,11 @@ export default function page() {
                 </div>
             </div>
 
-            <div className="max-w-5xl mt-5 w-full items-center justify-center font-mono text-sm grid  gap-4">
+            <div className="max-w-5xl mt-8 w-full items-center justify-center font-mono text-sm grid  gap-4">
                 <div className="flex flex-col  gap-4">
 
-                    <p className='text-slate-50 text-[20px] leading-[1.5em] font-light'>
-                        Cette activité fera de vous le MAÎTRE DES GOUTEURS de l’année puisque vous aurez l’opportunité de goûter nos créations.
+                    <p className='text-slate-50 text-[18px] leading-[1.5em] font-light'>
+                        Cette activité fera de vous le <span className='text-yellow-500 font-bold'>MAÎTRE DES GOUTEURS</span> de l’année puisque vous aurez l’opportunité de goûter nos créations.
                         <br />
                         C’est une expérience unique à ne pas rater !
                         <br />

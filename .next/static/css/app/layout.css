@@ -595,6 +595,9 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -863,6 +866,9 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-\[18px\] {
+  font-size: 18px;
 }
 .font-bold {
   font-weight: 700;
