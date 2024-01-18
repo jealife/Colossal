@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="fr">
       <body className={inter.className}>
         <header className='flex w-full flex-col  
-        items-center py-5 md:py-4 fixed top-0 left-0 bg-black/65 border-b border-slate-500/25 dark:border-slate-50/[0.06]  backdrop-blur-2xl dark:bg-transparent  '>
+        items-center py-5 md:py-4 fixed top-0 left-0 bg-black/65 border-b border-slate-500/25 dark:border-slate-50/[0.06]  backdrop-blur-3xl   '>
           <Nav />
         </header>
         {children}
