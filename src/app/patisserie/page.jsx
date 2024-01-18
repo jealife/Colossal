@@ -71,7 +71,7 @@ export default function page() {
 
 
       <div className="annoce px-24 sm:px-[20px]   ">
-        <div className="annonc-wrapper py-12 sm:py-6 w-full max-w-md sm:max-w-sm md:w-auto border border-solid border-gray-800 p-3 rounded-md text-center">
+        <div className="annonc-wrapper py-12 sm:py-6 w-full max-w-md sm:max-w-sm md:w-auto border border-solid border-gray-600 p-3 rounded-md text-center">
           <Link href='/programme' className='overflow-hidden w-96 object-cover '>
             <Image
             src={gouteurs}
