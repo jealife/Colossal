@@ -30,6 +30,7 @@ export default function page() {
                     <p className='text-slate-50 text-[18px] leading-[1.5em] font-light'>
                         Cette activité fera de vous le <span className='text-yellow-500 font-bold'>MAÎTRE DES GOUTEURS</span> de l’année puisque vous aurez l’opportunité de goûter nos créations.
                         <br />
+                        <br />
                         C’est une expérience unique à ne pas rater !
                         <br />
                         <br />
