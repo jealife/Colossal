@@ -8,7 +8,7 @@ export default function page() {
       <div className="max-w-5xl w-full items-center justify-center font-mono text-sm grid grid-cols-2 md:grid-cols-1 gap-4">
         <div className="flex flex-col pr-4 gap-4">
             <h1 className='text-6xl text-slate-50 md:text-[49px] font-bold tracking-tighter leading-[1.20em] '>
-                Le comité des <span>Gouteurs</span>
+                Le comité des <span className='text-yellow-500' >Gouteurs</span>
             </h1>
             <p className='text-slate-50 text-[20px] leading-[1.5em] font-light'>
             Le comité des gouteurs est une activité que Colossal dans son volet Colossal Cake organise au moins une fois dans l’année.

@@ -23,10 +23,6 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
-      <Head>
-       
-      </Head>
-
       <body className={inter.className}>
         <header className='flex w-full flex-col  
         items-center py-5 md:py-4 fixed top-0 left-0 bg-black  '>
