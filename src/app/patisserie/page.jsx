@@ -70,6 +70,20 @@ export default function page() {
       </div>
 
 
+      <div className="annoce px-24 sm:px-[20px] bg-cover bg-center bg-gouteurs ">
+        <div className="annonc-wrapper w-96 md:w-auto shadow-lg p-3 rounded-md   flex flex-col gap-3 items-center text-center">
+          
+          <p className='text-slate-900'>
+            Réserves ton dessert dès maintenant et
+            reçois ton formulaire pour personnaliser ta commande.
+          </p>
+          <Link href='/programme' className=" rounded-md font-semibold text-gray-50 px-3 py-2 bg-pink-950 w-max hover:bg-slate-50 duration-500 hover:text-slate-950 hover:shadow-lg">
+            Je commande
+          </Link>
+        </div>
+      </div>
+
+
 
 
     </main>

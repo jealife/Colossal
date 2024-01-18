@@ -12,7 +12,6 @@ module.exports = {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-roboto-mono)'],
       },
-      
     },
     screens: {
       '2xl': {'max': '1535px'},
