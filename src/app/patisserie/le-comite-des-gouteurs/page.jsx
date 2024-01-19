@@ -1,6 +1,6 @@
 import React from 'react'
-import comiteHero from '../../../public/assets/images/comite-hero.jpg'
-import eat from '../../../public/assets/images/eat.jpg'
+import comiteHero from '../../../../public/assets/images/comite-hero.jpg'
+import eat from '../../../../public/assets/images/eat.jpg'
 import Image from 'next/image'
 export default function page() {
     return (
