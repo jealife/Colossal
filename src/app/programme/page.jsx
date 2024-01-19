@@ -38,13 +38,13 @@ export default function page() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center justify-center w-full ">
-          <div className="flex flex-col ">
-            <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium'>
+        <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center justify-center w-full py-5 border-t  border-slate-500/50 ">
+          <div className="flex flex-col gap-2 ">
+            <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium '>
               À qui ce programme s’adresse t-il ?
             </h3>
-            <Image src={woman} className='w-full h-full hidden md:block' />
-            <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal' >
+            <Image src={woman} className='w-full md:w-52 h-full hidden md:block' />
+            <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal mt-3' >
               Le programme atteindre son sommet s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
             </p>
             <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400">
