@@ -625,6 +625,9 @@ video {
 .h-full {
   height: 100%;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .min-h-dvh {
   min-height: 100dvh;
 }
@@ -646,6 +649,9 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-6 {
+  width: 1.5rem;
 }
 .max-w-2xl {
   max-width: 42rem;
@@ -711,6 +717,9 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
+}
+.gap-2 {
+  gap: 0.5rem;
 }
 .overflow-hidden {
   overflow: hidden;

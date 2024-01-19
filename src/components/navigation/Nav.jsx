@@ -45,7 +45,7 @@ function MobileNav({ open, setOpen }) {
 
     const pathname = usePathname()
     return (
-        <div  className={`z-[999] absolute top-0 left-0 h-dvh w-screen bg-pink-950 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-sm px-5)  `}>
+        <div className={`z-[999] absolute top-0 left-0 h-dvh w-screen bg-pink-950 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-sm px-5)  `}>
             <div className="flex items-center justify-end filter drop-shadow-md h-20 px-6"> {/*logo container*/}
                 <div className="menu-icon" >
                     <svg onClick={() => setOpen(!open)} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#E5E5E5" className="w-8 h-8 cursor-pointer">
@@ -66,7 +66,9 @@ function MobileNav({ open, setOpen }) {
 
                 </div>
                 <div className="social flex items-center justify-center pb-14 pt-5 mt-24  px-5 border-solid border-t text-slate-50">
-                    <Link href='https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA=='>Instagram</Link>
+                    <Link href='https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA=='>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M349.33 69.33a93.62 93.62 0 0193.34 93.34v186.66a93.62 93.62 0 01-93.34 93.34H162.67a93.62 93.62 0 01-93.34-93.34V162.67a93.62 93.62 0 0193.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32z" /><path d="M377.33 162.67a28 28 0 1128-28 27.94 27.94 0 01-28 28zM256 181.33A74.67 74.67 0 11181.33 256 74.75 74.75 0 01256 181.33m0-37.33a112 112 0 10112 112 112 112 0 00-112-112z" /></svg>
+                    </Link>
                 </div>
             </div>
         </div>
