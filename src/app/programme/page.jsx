@@ -6,7 +6,7 @@ import woman from '../../../public/assets/images/Woman.png'
 
 export default function page() {
   return (
-    <main className="flex min-h-screen  flex-col items-center gap-14 pb-20">
+    <main className="flex min-h-screen  flex-col items-center gap-14 pb-20 dark:bg-gray-900">
 
       <div className="w-full h-auto items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  ">
         <div className="hero-wrapper-overlay  py-32 px-24 sm:px-[20px]   w-full h-auto items-center justify-center  font-mono text-sm flex flex-col bg-gray-950/50">
@@ -19,12 +19,12 @@ export default function page() {
       </div>
 
       <div className="px-24 sm:px-[20px] max-w-5xl flex flex-col gap-10">
-        <div className="text-center text-slate-900 font-semibold text-[16px] leading-[1.2em]">
+        <div className="text-center text-slate-900 dark:text-slate-50 font-semibold text-[16px] leading-[1.2em]">
           <h3 className=' text-2xl' >Bienvenue dans le Programme "Atteindre Son Sommet"! </h3>
         </div>
         <div className="grid">
           <div className="flex">
-            <pc className='text-[18px] leading-[1.5em] font-light' >
+            <pc className='text-[18px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-light' >
               Tu dois savoir que je ne suis pas une agence de marketing & réseaux sociaux ou encore social media manager.
 
               L’agence de marketing et réseaux sociaux taide à  à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
