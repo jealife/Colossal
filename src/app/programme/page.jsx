@@ -47,8 +47,8 @@ export default function page() {
             <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal mt-3' >
               Le programme atteindre son sommet s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
             </p>
-            <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400">
-              <li>
+            <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400 ">
+              <li className='mt-2'>
               Si tu as un projet que tu aimerais mettre en lumière sur Instagram mais tu ne sais pas comment t’y prendre
               </li>
               <li>
