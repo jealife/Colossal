@@ -1,3 +1,5 @@
 {
-  "/reconnect.me/page": "app/reconnect.me/page.js"
+  "/reconnect.me/page": "app/reconnect.me/page.js",
+  "/programme/page": "app/programme/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

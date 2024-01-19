@@ -1,5 +1,5 @@
 import React from 'react'
-import design from '../../../public/assets/images/design.png'
+import maintenence from '../../../public/assets/images/maintenence.png'
 import Image from 'next/image'
 export default function page() {
   return (
@@ -9,8 +9,8 @@ export default function page() {
 
         <div className="content py-2 flex h-full items-center gap-4">
           <Image
-            src={design}
-            width={400}
+            src={maintenence}
+            width={500}
             alt="Gif"
           />
         </div>
