@@ -24,7 +24,7 @@ export default function page() {
         </div>
         <div className="grid">
           <div className="flex">
-            <pc className='text-[18px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-light' >
+            <pc className='text-[18px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal' >
               Tu dois savoir que je ne suis pas une agence de marketing & réseaux sociaux ou encore social media manager.
 
               L’agence de marketing et réseaux sociaux taide à  à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
