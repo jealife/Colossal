@@ -1,20 +1,32 @@
-import React from 'react'
-import maintenence from '../../../public/assets/images/maintenence.png'
 import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import gouteurs from '../../../public/assets/images/gouteurs.jpg'
+
+
 export default function page() {
   return (
-    <main  className="flex min-h-dvh  flex-col items-center justify-center p-24 md:pt-24 md:px-5">
+    <main className="flex min-h-screen  flex-col items-center gap-14 pb-20">
 
-      <div className="max-w-5xl w-full items-center justify-center font-mono text-sm flex flex-col gap-3">
-
-        <div className="content py-2 flex h-full items-center gap-4">
-          <Image
-            src={maintenence}
-            width={500}
-            alt="Gif"
-          />
+      <div className="w-full h-auto items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  ">
+        <div className="hero-wrapper-overlay  py-32 px-24 sm:px-[20px]   w-full h-auto items-center justify-center  font-mono text-sm flex flex-col bg-gray-950/50">
+          <div class=" max-w-2xl md:w-full  text-pretty  text-slate-50 flex flex-col items-center gap-5 text-center ">
+            <h1 className="  text-7xl md:text-[49px] font-bold tracking-tighter leading-[1em] ">
+              Atteindre son sommet.
+            </h1>
+          </div>
         </div>
       </div>
+
+      <div className="px-24 sm:px-[20px]">
+
+      </div>
+
+
+
+
+
+
 
     </main>
   )
