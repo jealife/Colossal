@@ -29,6 +29,7 @@ export default function page() {
 
               L’agence de marketing et réseaux sociaux taide à  à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
               <br />
+              <br />
               Or ,  Ici je t’aide à te redécouvrir, à faire grandir ou ressortir ton potentiel et à développer ta vision. Aussi, te donne toutes les bases nécessaires pour le mettre en lumière sur Instagram.
               <br />
               Je souhaite t’aider à propulser ton idée de base en utilisant divers stratégies d’Instagram qui t’aideront aussi à mieux vendre.
