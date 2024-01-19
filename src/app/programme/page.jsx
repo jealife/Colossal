@@ -40,25 +40,30 @@ export default function page() {
 
         <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center justify-center w-full ">
           <div className="flex flex-col gap-3">
-            <h3 className='text-2xl text-slate-900 dark:text-slate-50'>
+            <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium'>
               À qui ce programme s’adresse t-il ?
             </h3>
             <Image src={woman} className='w-full h-full hidden md:block' />
             <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal' >
               Le programme atteindre son sommet s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
-
-              Si tu as un projet que tu aimerais mettre en lumière sur Instagram mais tu ne sais pas comment t’y prendre
-
-              Si tu as une idée que tu n’arrives pas à développer
-
-              Si tu ne comprends rien du fonctionnement de l’algorithme Instagram
-
-              Si tu n’arrives pas à créer tes propres visuels avec Canva ou que tu aimerais approfondir tes compétences en création de visuel
-
-              Si tu aimerais renforcer ta présence sur Instagram
-
-              Si tu as l’impression de stagner malgré tous tes efforts
             </p>
+            <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400">
+              <li>
+              Si tu as un projet que tu aimerais mettre en lumière sur Instagram mais tu ne sais pas comment t’y prendre
+              </li>
+              <li>
+              Si tu as une idée que tu n’arrives pas à développer
+              </li>
+              <li>
+              Si tu ne comprends rien du fonctionnement de l’algorithme Instagram
+              </li>
+              <li>
+              Si tu n’arrives pas à créer tes propres visuels avec Canva ou que tu aimerais approfondir tes compétences en création de visuel
+              </li>
+              <li>
+              Si tu as l’impression de stagner malgré tous tes efforts
+              </li>
+            </ul>
           </div>
           <div className="block">
             <Image src={woman} className='w-full h-full md:hidden' />
