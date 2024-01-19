@@ -39,7 +39,7 @@ export default function page() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center justify-center w-full ">
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 md:gap-0">
             <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium'>
               À qui ce programme s’adresse t-il ?
             </h3>
