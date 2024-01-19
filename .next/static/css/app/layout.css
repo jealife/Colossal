@@ -1066,6 +1066,10 @@ body::-webkit-scrollbar-thumb {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:hidden {
     display: none;
   }
