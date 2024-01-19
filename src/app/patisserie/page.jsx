@@ -100,10 +100,10 @@ export default function page() {
               alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
           </div>
 
-          <Link href='https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F35365db0-a4d0-4fd0-8174-8f553f17edae%2F5CEAA6B2-53DE-49C3-8982-86026B84C946.jpeg?table=block&id=025582df-bf30-4326-b909-302089305077&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2' className="item">
+          {/* <Link href='https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F35365db0-a4d0-4fd0-8174-8f553f17edae%2F5CEAA6B2-53DE-49C3-8982-86026B84C946.jpeg?table=block&id=025582df-bf30-4326-b909-302089305077&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2' className="item">
             <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F35365db0-a4d0-4fd0-8174-8f553f17edae%2F5CEAA6B2-53DE-49C3-8982-86026B84C946.jpeg?table=block&id=025582df-bf30-4326-b909-302089305077&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
               alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-          </Link>
+          </Link> */}
 
         </div>
       </div>
