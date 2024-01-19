@@ -668,15 +668,6 @@ video {
 .max-w-sm {
   max-width: 24rem;
 }
-.max-w-7xl {
-  max-width: 80rem;
-}
-.max-w-6xl {
-  max-width: 72rem;
-}
-.max-w-xl {
-  max-width: 36rem;
-}
 .-translate-x-0 {
   --tw-translate-x: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -703,6 +694,9 @@ video {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.items-start {
+  align-items: flex-start;
+}
 .items-center {
   align-items: center;
 }
@@ -714,6 +708,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .gap-14 {
   gap: 3.5rem;
@@ -729,9 +726,6 @@ video {
 }
 .gap-5 {
   gap: 1.25rem;
-}
-.gap-10 {
-  gap: 2.5rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -782,8 +776,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1446511437394-36cdff3ae1b3\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
+  background-image: url('https://images.unsplash.com/photo-1446511437394-36cdff3ae1b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1491510736257-3ad769ff47b6\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1491510736257-3ad769ff47b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1506869640319-fe1a24fd76dc\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
+  background-image: url('https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1667503313783-6999f778a995\?q\=80\&w\=2071\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1667503313783-6999f778a995?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -791,11 +791,11 @@ video {
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1670541196589-745e07d27739\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1670541196589-745e07d27739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
-.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1670541196589-745e07d27739\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3Dhttps\:\/\/images\.unsplash\.com\/photo-1506869640319-fe1a24fd76dc\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
-  background-image: url('https://images.unsplash.com/photo-1670541196589-745e07d27739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/indoor-shot-dreamy-positive-young-woman-uses-mobile-phone-checks-messages-dressed-pink-knitted-jumper-isolated-blue-wall-with-copy-space-your-promotional-reads-article_273609-26314\.jpg\?w\=1060\&t\=st\=1705637030\~exp\=1705637630\~hmac\=033e40b567df109a443e8ef53b54f0874e5fee64994dbe93cda009199d513225\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/indoor-shot-dreamy-positive-young-woman-uses-mobile-phone-checks-messages-dressed-pink-knitted-jumper-isolated-blue-wall-with-copy-space-your-promotional-reads-article_273609-26314.jpg?w=1060&t=st=1705637030~exp=1705637630~hmac=033e40b567df109a443e8ef53b54f0874e5fee64994dbe93cda009199d513225');
 }
-.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1506869640319-fe1a24fd76dc\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
-  background-image: url('https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/horizontal-shot-pretty-dark-skinned-woman-with-afro-hairstyle-has-broad-smile-white-teeth-shows-something-nice-friend-points-upper-right-corner-stands-against-wall_273609-16442\.jpg\'\)\] {
+  background-image: url('https://img.freepik.com/free-photo/horizontal-shot-pretty-dark-skinned-woman-with-afro-hairstyle-has-broad-smile-white-teeth-shows-something-nice-friend-points-upper-right-corner-stands-against-wall_273609-16442.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -848,17 +848,17 @@ video {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
+.py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 .pb-14 {
   padding-bottom: 3.5rem;
@@ -906,9 +906,8 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-\[14px\] {
+  font-size: 14px;
 }
 .font-bold {
   font-weight: 700;
@@ -916,11 +915,11 @@ video {
 .font-light {
   font-weight: 300;
 }
-.font-semibold {
-  font-weight: 600;
-}
 .font-normal {
   font-weight: 400;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .leading-\[1\.20em\] {
   line-height: 1.20em;
@@ -961,13 +960,17 @@ video {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
 }
+.text-slate-950 {
+  --tw-text-opacity: 1;
+  color: rgb(2 6 23 / var(--tw-text-opacity));
+}
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
 }
-.text-slate-950 {
+.text-slate-800 {
   --tw-text-opacity: 1;
-  color: rgb(2 6 23 / var(--tw-text-opacity));
+  color: rgb(30 41 59 / var(--tw-text-opacity));
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -1095,10 +1098,6 @@ body::-webkit-scrollbar-thumb {
     display: block;
   }
 
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:hidden {
     display: none;
   }
@@ -1115,28 +1114,12 @@ body::-webkit-scrollbar-thumb {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
-  .md\:bg-\[\] {
-    background-color: ;
-  }
-
   .md\:bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1506126613408-eca07ce68773\?q\=80\&w\=1999\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
     background-image: url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   }
 
   .md\:bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1512223792601-592a9809eed4\?q\=80\&w\=1400\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
     background-image: url('https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  }
-
-  .md\:bg-\[url\(\)\] {
-    background-image: url();
-  }
-
-  .md\:bg-\[url\(\'\'\)\] {
-    background-image: url('');
-  }
-
-  .md\:bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1499540633125-484965b60031\?q\=80\&w\=2071\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
-    background-image: url('https://images.unsplash.com/photo-1499540633125-484965b60031?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   }
 
   .md\:px-5 {
@@ -1191,11 +1174,6 @@ body::-webkit-scrollbar-thumb {
 
   .dark\:border-slate-50\/\[0\.06\] {
     border-color: rgb(248 250 252 / 0.06);
-  }
-
-  .dark\:bg-slate-50 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(248 250 252 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-gray-900 {
