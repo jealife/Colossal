@@ -1,7 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/patisserie/page": "app/patisserie/page.js",
-  "/patisserie/le-comite-des-gouteurs/page": "app/patisserie/le-comite-des-gouteurs/page.js",
-  "/programme/page": "app/programme/page.js",
-  "/a-propos/page": "app/a-propos/page.js"
+  "/reconnect.me/page": "app/reconnect.me/page.js"
 }

@@ -11,25 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/patisserie/page": [
+    "/reconnect.me/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/patisserie/page.js"
-    ],
-    "/patisserie/le-comite-des-gouteurs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/patisserie/le-comite-des-gouteurs/page.js"
-    ],
-    "/programme/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/programme/page.js"
-    ],
-    "/a-propos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/a-propos/page.js"
+      "static/chunks/app/reconnect.me/page.js"
     ]
   }
 }
