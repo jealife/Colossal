@@ -10,7 +10,7 @@ const Tabs = ({ children }) => {
 
     return (
         <div className="max-w-2xl w-full px-2 ">
-            <div className="w-full max-w-2xl  md:max-w-full [&_button]:max-w-fit inline-flex flex-nowrap  gap-4 md:px-4 overflow-x-scroll hide-scroll-bar md:[mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
+            <div className="w-full max-w-2xl   md:max-w-full [&_button]:max-w-fit inline-flex flex-nowrap  gap-4 md:px-4 overflow-x-scroll hide-scroll-bar md:[mask-image:_linear-gradient(to_right,transparent_0,_black_50px,_black_calc(100%-50px),transparent_100%)]">
                 {children.map(child => (
                     <button
                         key={child.props.label}

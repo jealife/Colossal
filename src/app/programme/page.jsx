@@ -28,7 +28,7 @@ export default function page() {
             <p className='text-[18px] text-slate-800 dark:text-slate-50 leading-[1.5em] font-normal' >
               Tu dois savoir que je ne suis pas une agence de marketing & réseaux sociaux ou encore social media manager.
 
-              L’agence de marketing et réseaux sociaux taide à  à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
+              L’agence de marketing et réseaux sociaux taide à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
               <br />
               <br />
               Or ,  Ici je t’aide à te redécouvrir, à faire grandir ou ressortir ton potentiel et à développer ta vision. Aussi, te donne toutes les bases nécessaires pour le mettre en lumière sur Instagram.
