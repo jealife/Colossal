@@ -26,7 +26,7 @@ export default function Home() {
       <div className="about-section w-full flex flex-col items-center">
         <div className="about-wrapper max-w-4xl py-20 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-4 ">
-            <h2 className='text-4xl text-gray-950 md:text-[49px] font-semibold tracking-tighter leading-[1em]' >
+            <h2 className='text-4xl text-gray-950 md:text-[36px] font-semibold tracking-tighter leading-[1em]' >
               Hello chers Honorable !
             </h2>
 
