@@ -68,7 +68,7 @@ function MobileNav({ open, setOpen }) {
                 <div className="social flex gap-3 items-center justify-center pb-14 pt-5 mt-24  px-5 border-solid border-t text-slate-50">
 
                     <Link href='https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA=='>
-                        <FaInstagram />
+                        <FaInstagram className='text-xl' />
                     </Link>
                 </div>
             </div>
