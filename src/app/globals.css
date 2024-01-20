@@ -37,9 +37,11 @@ body::-webkit-scrollbar-thumb {
   color: #EAB308;
 }
 
-.gouteurs{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../../public/assets/images/gouteurs.jpg');
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
 }

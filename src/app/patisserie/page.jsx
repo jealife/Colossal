@@ -5,23 +5,7 @@ import React from 'react'
 import gouteurs from '../../../public/assets/images/gouteurs.jpg'
 import { Tab, Tabs } from '@/components/tab patisserie/TabPatisserie'
 
-const patisserie = [
-  {
-    id: 1,
-    title: 'Gateau',
-    url: '/gateauaufour'
-  },
-  {
-    id: 1,
-    title: '',
-    url: '/Gateau au four'
-  },
-  {
-    id: 1,
-    title: '',
-    url: '/Gateau au four'
-  },
-]
+
 
 export default function page() {
   return (
