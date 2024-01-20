@@ -14,8 +14,8 @@ const Tabs = ({ children }) => {
                 {children.map(child => (
                     <button
                         key={child.props.label}
-                        className={`${activeTab === child.props.label ? ' bg-pink-950 text-slate-50 rounded-full' : 'max-w-min rounded-full '
-                            } flex-1 text-gray-700 text-xs font-medium py-2 px-2 max-w-max rounded-full`}
+                        className={`${activeTab === child.props.label ? ' bg-pink-950 text-slate-50 rounded-full' : 'max-w-max rounded-full '
+                            } flex-1 text-gray-700 text-xs font-medium py-1 px-2 max-w-max rounded-full`}
                         onClick={e => handleClick(e, child.props.label)}
                     >
                         {child.props.label}
