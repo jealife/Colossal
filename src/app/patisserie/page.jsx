@@ -6,6 +6,8 @@ import gouteurs from '../../../public/assets/images/gouteurs.jpg'
 import { Tab, Tabs } from '@/components/tab patisserie/TabPatisserie'
 import Gallery from '@/components/gallery/Gallery'
 import Crepres from '@/components/gallery/Crepres'
+import GateauAuFour from '@/components/gallery/GateauAuFour'
+import GateauCrepes from '@/components/gallery/GateauCrepes'
 
 
 
@@ -47,60 +49,28 @@ export default function page() {
 
       <Tabs>
         <Tab label="Gateaux au four">
-          <div className="py-4">
-            <div className="gallery  sm:px-[20px]">
-              <div className="gallery-wrapper grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-4 " >
-
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F33af35ef-9cf5-4519-9c20-957940ae0697%2F805C19DA-E297-4529-B57A-630C02700D57.jpeg?table=block&id=13c68b25-7c52-4be5-91f4-355cf9026f79&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F5c468e92-f87b-4be9-923c-ab105be92e8e%2F6B499725-7D46-46B2-890F-EE9F77519763.jpeg?table=block&id=11f86634-e6ea-4ebb-884f-e7b21769784a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau " className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F0b4127ce-2f9d-4bd4-bada-04f004296bce%2FA2150E3D-5264-47D7-AF05-D5D8D2AD679C.jpeg?table=block&id=4b955e99-df85-46b2-80bd-73e036b46b14&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F29d4cea4-4dda-4f6a-a7c4-85a6cc33a260%2FFE6A8C5C-91BC-496D-909A-FA703420BD96.jpeg?table=block&id=606a0fec-939d-4753-845f-acfacec51086&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-
-              </div>
-            </div>
-          </div>
+          <Gallery>
+            <GateauAuFour />
+          </Gallery>
         </Tab>
 
         <Tab label="Gateaux crêpes">
-          <div className="">
-            <div className="gallery sm:px-[20px]">
-              <div className="gallery-wrapper grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-4 " >
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fdda99998-cc70-4bae-9cea-059e2e7b9afc%2FF37B243F-810D-4B38-8DE7-6CE985C57257.jpeg?table=block&id=d2a3926a-0d4b-4fb4-bcef-daa0af0fc48a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-              </div>
-            </div>
-          </div>
+          <Gallery>
+            <GateauCrepes />
+          </Gallery>
         </Tab>
 
         <Tab label="Crêpes">
           <Gallery>
-            <Crepres/>
+            <Crepres />
           </Gallery>
         </Tab>
 
-        
       </Tabs>
 
 
 
-       {/* event section  */}
+      {/* event section  */}
 
       <div className="annoce px-24 sm:px-[20px]   ">
         <div className="annonc-wrapper py-12 sm:py-6 w-full max-w-md sm:max-w-sm md:w-auto border border-solid border-gray-600 p-3 rounded-md text-center">
@@ -121,8 +91,6 @@ export default function page() {
           </div>
         </div>
       </div>
-
-
 
 
     </main>
