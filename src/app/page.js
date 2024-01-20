@@ -22,6 +22,19 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="aboutsection w-full">
+        <div className="about-wrapper py-24 px-24 sm:px-[20px]   w-full">
+          <div className="w-full flex justify-start flex-col gap-3 ">
+            <h2 className='text-4xl md:text-[49px] font-semibold tracking-tighter leading-[1em]' >
+              Hello chers Honorable !
+            </h2>
+
+            <p className='text-slate-700 text-[20px] leading-[1.2em] pr-24 md:pr-0' >
+              Bienvenue dans l’univers  de Colossal Mind And Cake. J’ai créé un espace où deux de mes passions, la pâtisserie et le développement personnel se fusionnent pour vous offrir une expérience absolument unique.
+            </p>
+          </div>
+        </div>
+      </div>
 
     </main>
   )
