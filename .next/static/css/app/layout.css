@@ -589,23 +589,17 @@ video {
 .-mt-24 {
   margin-top: -6rem;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
 .mt-24 {
   margin-top: 6rem;
-}
-.mt-8 {
-  margin-top: 2rem;
-}
-.mt-0 {
-  margin-top: 0px;
-}
-.mt-5 {
-  margin-top: 1.25rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
 }
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 .block {
   display: block;
@@ -712,9 +706,6 @@ video {
 .flex-wrap {
   flex-wrap: wrap;
 }
-.items-start {
-  align-items: flex-start;
-}
 .items-center {
   align-items: center;
 }
@@ -802,9 +793,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1446511437394-36cdff3ae1b3\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
-  background-image: url('https://images.unsplash.com/photo-1446511437394-36cdff3ae1b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-}
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1491510736257-3ad769ff47b6\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1491510736257-3ad769ff47b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
 }
@@ -816,12 +804,6 @@ video {
 }
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1670541196589-745e07d27739\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1670541196589-745e07d27739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-}
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/indoor-shot-dreamy-positive-young-woman-uses-mobile-phone-checks-messages-dressed-pink-knitted-jumper-isolated-blue-wall-with-copy-space-your-promotional-reads-article_273609-26314\.jpg\?w\=1060\&t\=st\=1705637030\~exp\=1705637630\~hmac\=033e40b567df109a443e8ef53b54f0874e5fee64994dbe93cda009199d513225\'\)\] {
-  background-image: url('https://img.freepik.com/free-photo/indoor-shot-dreamy-positive-young-woman-uses-mobile-phone-checks-messages-dressed-pink-knitted-jumper-isolated-blue-wall-with-copy-space-your-promotional-reads-article_273609-26314.jpg?w=1060&t=st=1705637030~exp=1705637630~hmac=033e40b567df109a443e8ef53b54f0874e5fee64994dbe93cda009199d513225');
-}
-.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-photo\/horizontal-shot-pretty-dark-skinned-woman-with-afro-hairstyle-has-broad-smile-white-teeth-shows-something-nice-friend-points-upper-right-corner-stands-against-wall_273609-16442\.jpg\'\)\] {
-  background-image: url('https://img.freepik.com/free-photo/horizontal-shot-pretty-dark-skinned-woman-with-afro-hairstyle-has-broad-smile-white-teeth-shows-something-nice-friend-points-upper-right-corner-stands-against-wall_273609-16442.jpg');
 }
 .bg-cover {
   background-size: cover;
@@ -932,26 +914,20 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-\[14px\] {
-  font-size: 14px;
-}
 .font-bold {
   font-weight: 700;
 }
 .font-light {
   font-weight: 300;
 }
+.font-medium {
+  font-weight: 500;
+}
 .font-normal {
   font-weight: 400;
 }
 .font-semibold {
   font-weight: 600;
-}
-.font-medium {
-  font-weight: 500;
-}
-.lowercase {
-  text-transform: lowercase;
 }
 .leading-\[1\.20em\] {
   line-height: 1.20em;
@@ -972,6 +948,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
 .text-gray-950 {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
@@ -988,6 +968,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
 }
+.text-slate-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 41 59 / var(--tw-text-opacity));
+}
 .text-slate-900 {
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity));
@@ -999,18 +983,6 @@ video {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-.text-slate-800 {
-  --tw-text-opacity: 1;
-  color: rgb(30 41 59 / var(--tw-text-opacity));
-}
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-.text-gray-700 {
-  --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -1142,6 +1114,10 @@ body::-webkit-scrollbar-thumb {
     display: none;
   }
 
+  .md\:w-52 {
+    width: 13rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1150,24 +1126,8 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
   }
 
-  .md\:w-48 {
-    width: 12rem;
-  }
-
-  .md\:w-5 {
-    width: 1.25rem;
-  }
-
-  .md\:w-52 {
-    width: 13rem;
-  }
-
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
   }
 
   .md\:bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1506126613408-eca07ce68773\?q\=80\&w\=1999\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
@@ -1237,13 +1197,13 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
   }
 
-  .dark\:text-slate-50 {
-    --tw-text-opacity: 1;
-    color: rgb(248 250 252 / var(--tw-text-opacity));
-  }
-
   .dark\:text-gray-400 {
     --tw-text-opacity: 1;
     color: rgb(156 163 175 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-slate-50 {
+    --tw-text-opacity: 1;
+    color: rgb(248 250 252 / var(--tw-text-opacity));
   }
 }
