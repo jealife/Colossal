@@ -10,7 +10,7 @@ const Tabs = ({ children }) => {
 
     return (
         <div className="max-w-2xl w-full">
-            <div className="w-full flex  gap-4">
+            <div className="w-full flex  gap-4 px-2">
                 {children.map(child => (
                     <button
                         key={child.props.label}
