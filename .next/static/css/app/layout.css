@@ -905,6 +905,9 @@ video {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pl-2 {
+  padding-left: 0.5rem;
+}
 .text-center {
   text-align: center;
 }
@@ -1048,6 +1051,10 @@ video {
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_128px\2c _black_calc\(100\%-200px\)\2c transparent_100\%\)\] {
+  -webkit-mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
+          mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -1176,6 +1183,11 @@ body::-webkit-scrollbar-thumb {
 
   .md\:text-\[49px\] {
     font-size: 49px;
+  }
+
+  .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_128px\2c _black_calc\(100\%-200px\)\2c transparent_100\%\)\] {
+    -webkit-mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
+            mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
   }
 }
 @media (max-width: 639px) {
