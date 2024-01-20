@@ -1171,6 +1171,10 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
   }
 
+  .md\:max-w-full {
+    max-width: 100%;
+  }
+
   .md\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -1293,6 +1297,11 @@ body::-webkit-scrollbar-thumb {
   .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_50px\2c _black_calc\(100\%-200px\)\2c transparent_100\%\)\] {
     -webkit-mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 200px),transparent 100%);
             mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 200px),transparent 100%);
+  }
+
+  .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_50px\2c _black_calc\(100\%-50px\)\2c transparent_100\%\)\] {
+    -webkit-mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 50px),transparent 100%);
+            mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 50px),transparent 100%);
   }
 }
 @media (max-width: 639px) {
