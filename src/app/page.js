@@ -8,7 +8,7 @@ export default function Home() {
 
     <main className="flex min-h-dvh  flex-col items-center justify-between overflow-x-hidden">
 
-      <div className="   w-full h-dvh items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1667503313783-6999f778a995?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
+      <div className="   w-full h-dvh md:h-[560px] items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1667503313783-6999f778a995?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
         <div className="hero-wrapper-overlay  py-24 px-24 sm:px-[20px]   w-full h-dvh items-center justify-center  font-mono text-sm flex flex-col bg-gray-950/50">
           <div class=" max-w-2xl md:w-full  text-pretty  text-slate-50 flex flex-col items-center gap-5 text-center ">
             <h1 className="  text-7xl md:text-[49px] font-bold tracking-tighter leading-[1em] "
@@ -22,8 +22,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="aboutsection w-full">
-        <div className="about-wrapper max-w-4xl py-24 px-24 sm:px-[20px]   w-full">
+      <div className="aboutsection w-full flex flex-col items-center">
+        <div className="about-wrapper max-w-4xl py-20 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-4 ">
             <h2 className='text-4xl md:text-[49px] font-semibold tracking-tighter leading-[1em]' >
               Hello chers Honorable !

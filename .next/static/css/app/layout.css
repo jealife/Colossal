@@ -930,6 +930,10 @@ video {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
 }
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 .pb-14 {
   padding-bottom: 3.5rem;
 }
@@ -1199,6 +1203,18 @@ body::-webkit-scrollbar-thumb {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[\] {
+    height: ;
+  }
+
+  .md\:h-\[560\] {
+    height: 560;
+  }
+
+  .md\:h-\[560px\] {
+    height: 560px;
   }
 
   .md\:w-52 {
