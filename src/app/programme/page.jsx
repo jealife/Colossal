@@ -45,7 +45,7 @@ export default function page() {
             </h3>
             <Image src={woman} className='w-full md:w-52 h-full hidden md:block' />
             <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal mt-3' >
-              Le programme atteindre son sommet s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
+              Le programme <span className='font-semibold'>Atteindre son sommet </span> s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
             </p>
             <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400 ">
               <li className='mt-2'>
