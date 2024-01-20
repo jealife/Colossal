@@ -1,4 +1,4 @@
-// File: /workspace/Colossal/src/app/patisserie/page.jsx
+// File: /workspaces/Colossal/src/app/patisserie/page.jsx
 import * as entry from '../../../../src/app/patisserie/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
