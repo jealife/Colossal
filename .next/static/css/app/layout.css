@@ -669,6 +669,21 @@ video {
   width: -moz-min-content;
   width: min-content;
 }
+.w-9 {
+  width: 2.25rem;
+}
+.w-80 {
+  width: 20rem;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[4\] {
+  width: 4;
+}
+.w-\[400px\] {
+  width: 400px;
+}
 .max-w-2xl {
   max-width: 42rem;
 }

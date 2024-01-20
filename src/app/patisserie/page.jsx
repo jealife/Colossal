@@ -10,7 +10,6 @@ import GateauAuFour from '@/components/gallery/GateauAuFour'
 import GateauCrepes from '@/components/gallery/GateauCrepes'
 
 
-
 export default function page() {
   return (
     <main className="flex min-h-screen  flex-col items-center gap-14 pb-20">
@@ -30,8 +29,9 @@ export default function page() {
       </div>
 
       <div className="annoce px-24 sm:px-[20px] ">
-        <div className="annonc-wrapper w-96 md:w-auto shadow-lg p-3 rounded-md -mt-24 bg-white flex flex-col gap-3 items-center text-center">
+        <div className="annonc-wrapper w-[400px] md:w-auto shadow-lg p-3 rounded-md -mt-24 bg-white flex flex-col gap-3 items-center text-center">
           <p className='text-slate-900'>
+          Les précommandes se font sous 24h/72h à l’avance. <br />
             Réserves ton dessert dès maintenant et
             reçois ton formulaire pour personnaliser ta commande.
           </p>
