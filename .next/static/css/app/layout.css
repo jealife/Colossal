@@ -1193,6 +1193,16 @@ body::-webkit-scrollbar-thumb {
     -webkit-mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
             mask-image: linear-gradient(to right,transparent 0, black 128px, black calc(100% - 200px),transparent 100%);
   }
+
+  .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_10px\2c _black_calc\(100\%-200px\)\2c transparent_100\%\)\] {
+    -webkit-mask-image: linear-gradient(to right,transparent 0, black 10px, black calc(100% - 200px),transparent 100%);
+            mask-image: linear-gradient(to right,transparent 0, black 10px, black calc(100% - 200px),transparent 100%);
+  }
+
+  .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_100px\2c _black_calc\(100\%-200px\)\2c transparent_100\%\)\] {
+    -webkit-mask-image: linear-gradient(to right,transparent 0, black 100px, black calc(100% - 200px),transparent 100%);
+            mask-image: linear-gradient(to right,transparent 0, black 100px, black calc(100% - 200px),transparent 100%);
+  }
 }
 @media (max-width: 639px) {
 
