@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation'
 import Link from 'next/link';
 import Image from 'next/image'
 import logo from '../../../public/assets/images/logo.png'
-import { FaInstagram,FaWhatsappSquare } from "react-icons/fa";
+import { FaInstagram,FaWhatsapp } from "react-icons/fa";
 
 
 export default function Nav() {
@@ -71,7 +71,7 @@ function MobileNav({ open, setOpen }) {
                         <FaInstagram className='text-2xl' />
                     </Link>
                     <Link href='https://wa.me/629109414'>
-                        <FaWhatsappSquare className='text-2xl' />
+                        <FaWhatsapp className='text-2xl' />
                     </Link>
                 </div>
             </div>
