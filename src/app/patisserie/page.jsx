@@ -4,6 +4,8 @@ import Link from 'next/link'
 import React from 'react'
 import gouteurs from '../../../public/assets/images/gouteurs.jpg'
 import { Tab, Tabs } from '@/components/tab patisserie/TabPatisserie'
+import Gallery from '@/components/gallery/Gallery'
+import Crepres from '@/components/gallery/Crepres'
 
 
 
@@ -88,22 +90,9 @@ export default function page() {
         </Tab>
 
         <Tab label="Crêpes">
-          <div className="">
-            <div className="gallery  sm:px-[20px]">
-              <div className="gallery-wrapper grid grid-cols-3 sm:grid-cols-2 sm:gap-2 gap-4 " >
-
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fea494dfd-2d02-4784-aec7-af27b45bbb78%2F030F6FCE-4BE0-40D1-A8B6-282F3132F30D.jpeg?table=block&id=1b393415-b61c-4076-b73a-5f0775edfad8&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="crepes" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-                <div className="item">
-                  <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F5e82b8c3-d2ba-44ce-84fe-61593b1bbe10%2F3EBF63A2-2551-4D08-840D-9BF4E0E60B4C.jpeg?table=block&id=8e0ba739-d15d-4017-ac72-1ca5a61f3553&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2"
-                    alt="gateau crepes au chocolat" className='w-full max-w-sm rounded-md h-56 sm:h-40 object-cover' />
-                </div>
-
-              </div>
-            </div>
-          </div>
+          <Gallery>
+            <Crepres/>
+          </Gallery>
         </Tab>
 
         
