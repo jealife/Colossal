@@ -583,8 +583,14 @@ video {
 .top-0 {
   top: 0px;
 }
-.z-\[999\] {
-  z-index: 999;
+.-z-20 {
+  z-index: -20;
+}
+.z-\[9999\] {
+  z-index: 9999;
+}
+.-z-10 {
+  z-index: -10;
 }
 .-mt-24 {
   margin-top: -6rem;
@@ -1273,10 +1279,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .\[\&_button\]\:mx-8 button {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-.\[\&_li\]\:mx-8 li {
   margin-left: 2rem;
   margin-right: 2rem;
 }

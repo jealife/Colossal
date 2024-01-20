@@ -11,16 +11,6 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/reconnect.me/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/reconnect.me/page.js"
-    ],
-    "/programme/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/programme/page.js"
-    ],
     "/patisserie/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
