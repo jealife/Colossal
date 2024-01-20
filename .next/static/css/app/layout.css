@@ -1217,6 +1217,10 @@ body::-webkit-scrollbar-thumb {
     height: 560px;
   }
 
+  .md\:h-\[780px\] {
+    height: 780px;
+  }
+
   .md\:w-52 {
     width: 13rem;
   }
