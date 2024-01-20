@@ -47,7 +47,7 @@ export default function page() {
 
       {/* Tab gallery */}
 
-      <Tabs>
+      <Tabs  >
         <Tab label="Gateaux au four">
           <Gallery>
             <GateauAuFour />

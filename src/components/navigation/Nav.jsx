@@ -37,7 +37,7 @@ export default function Nav() {
                     </svg>
                 </div>
             </nav>
-            <MobileNav open={open} setOpen={setOpen} />
+            <MobileNav open={open} setOpen={setOpen} className='z-[9999]' />
         </>
     )
 
@@ -47,7 +47,7 @@ function MobileNav({ open, setOpen }) {
 
     const pathname = usePathname()
     return (
-        <div className={`z-[9999] absolute top-0 left-0 h-dvh w-screen bg-pink-950 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-sm px-5)  `}>
+        <div className={`absolute top-0 left-0 h-dvh w-screen bg-pink-950 transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-sm px-5)  `}>
             <div className="flex items-center justify-end filter drop-shadow-md h-20 px-6"> {/*logo container*/}
                 <div className="menu-icon" >
                     <svg onClick={() => setOpen(!open)} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#E5E5E5" className="w-8 h-8 cursor-pointer">
