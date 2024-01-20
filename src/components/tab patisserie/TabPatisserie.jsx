@@ -9,8 +9,8 @@ const Tabs = ({ children }) => {
     };
 
     return (
-        <div className="max-w-2xl w-full">
-            <div className="w-full flex  gap-4 pl-2 overflow-x-scroll hide-scroll-bar md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+        <div className="max-w-2xl w-full px-2">
+            <div className="w-full flex  gap-4 md:pl-3 overflow-x-scroll hide-scroll-bar md:[mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
                 {children.map(child => (
                     <button
                         key={child.props.label}

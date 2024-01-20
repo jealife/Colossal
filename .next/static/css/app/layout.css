@@ -1181,6 +1181,10 @@ body::-webkit-scrollbar-thumb {
     padding-top: 6rem;
   }
 
+  .md\:pl-3 {
+    padding-left: 0.75rem;
+  }
+
   .md\:text-\[49px\] {
     font-size: 49px;
   }
