@@ -24,6 +24,7 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: #e8eaeb;
+  overflow-x: hidden;
 }
 body::-webkit-scrollbar {
   width: 0.4rem;
