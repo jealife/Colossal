@@ -1287,6 +1287,18 @@ body::-webkit-scrollbar-thumb {
     height: 10rem;
   }
 
+  .sm\:h-24 {
+    height: 6rem;
+  }
+
+  .sm\:h-20 {
+    height: 5rem;
+  }
+
+  .sm\:w-56 {
+    width: 14rem;
+  }
+
   .sm\:max-w-sm {
     max-width: 24rem;
   }
