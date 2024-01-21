@@ -838,9 +838,6 @@ video {
 .border-slate-500\/30 {
   border-color: rgb(100 116 139 / 0.3);
 }
-.border-slate-500\/50 {
-  border-color: rgb(100 116 139 / 0.5);
-}
 .bg-\[\#e8eaeb\] {
   --tw-bg-opacity: 1;
   background-color: rgb(232 234 235 / var(--tw-bg-opacity));
@@ -1368,21 +1365,6 @@ body::-webkit-scrollbar-thumb {
 
   .dark\:border-slate-50\/\[0\.06\] {
     border-color: rgb(248 250 252 / 0.06);
-  }
-
-  .dark\:bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  }
-
-  .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-slate-50 {
-    --tw-text-opacity: 1;
-    color: rgb(248 250 252 / var(--tw-text-opacity));
   }
 }
 .\[\&_button\]\:max-w-fit button {
