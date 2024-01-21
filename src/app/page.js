@@ -92,7 +92,7 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  <AiTwotoneStar className="text-4xl text-pink-900" />
+                  <AiTwotoneStar className="text-4xl sm:text-6xl text-pink-900" />
                   On allume pas une lampe pour la mettre sous le boisseau , mais
                   sur le chandelier et elle éclaire tout ceux qui sont dans la
                   maison.

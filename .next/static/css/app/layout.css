@@ -1282,6 +1282,11 @@ body::-webkit-scrollbar-thumb {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
+
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 @media (prefers-color-scheme: dark) {
 
