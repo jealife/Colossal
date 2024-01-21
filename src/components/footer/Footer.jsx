@@ -13,8 +13,9 @@ export default function Footer() {
           let ul = $refs.logos;
           ul.insertAdjacentHTML('afterend', ul.outerHTML);
           ul.nextSibling.setAttribute('aria-hidden', 'true');})">
-        <div class="w-full inline-flex flex-nowrap items-center ">
-          <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+            
+        <div class="w-full inline-flex flex-nowrap items-center  -z-40 [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
+          <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll ">
             <li>
               <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fdda99998-cc70-4bae-9cea-059e2e7b9afc%2FF37B243F-810D-4B38-8DE7-6CE985C57257.jpeg?table=block&id=d2a3926a-0d4b-4fb4-bcef-daa0af0fc48a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2" alt="Gateau crêpes au chocolat"
                 className='object-cover w-72 h-24 sm:w-56 sm:h-20 rounded-full' />
@@ -40,7 +41,7 @@ export default function Footer() {
                 className='object-cover w-72 h-24 sm:w-56 sm:h-20 rounded-full' />
             </li>
           </ul>
-          <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+          <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
             <li>
               <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fdda99998-cc70-4bae-9cea-059e2e7b9afc%2FF37B243F-810D-4B38-8DE7-6CE985C57257.jpeg?table=block&id=d2a3926a-0d4b-4fb4-bcef-daa0af0fc48a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2" alt="Gateau crêpes au chocolat"
                 className='object-cover w-72 h-24 sm:w-56 sm:h-20 rounded-full' />
@@ -68,7 +69,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer bg-pink-900 p-4 rounded-md grid grid-cols-3 gap-4 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
+        <div className="footer bg-pink-950 px-4 py-9 rounded-md grid grid-cols-3 gap-4  sm:grid-cols-1 border-t  border-slate-500/30">
 
           <div className="flex flex-col gap-3">
             <div className="logo">
