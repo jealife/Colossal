@@ -2,8 +2,6 @@
 import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
 
-// AOS.init();
-
 export default function Home() {
   return (
     <main className="flex min-h-dvh  flex-col items-center justify-between overflow-x-hidden">

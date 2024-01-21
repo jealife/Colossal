@@ -40,9 +40,9 @@ export default function Cupcakes() {
             {
                 cupcakes.map((Cupcake) => (
                     <img
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-delay="300"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                        data-aos-delay="100"
                         key={Cupcake.id}
                         src={Cupcake.imageUrl}
                         alt={Cupcake.alt}

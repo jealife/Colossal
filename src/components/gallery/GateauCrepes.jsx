@@ -25,9 +25,9 @@ export default function GateauCrepes() {
             {
                 gateauxCrepes.map((gateauCrepes) => (
                     <img
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-delay="300"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                        data-aos-delay="100"
                         key={gateauCrepes.id}
                         src={gateauCrepes.imageUrl}
                         alt={gateauCrepes.alt}

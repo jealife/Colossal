@@ -39,9 +39,9 @@ export default function Crepres() {
             {
                 crepes.map((crepe) => (
                     <img
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-delay="300"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                        data-aos-delay="100"
                         key={crepe.id}
                         src={crepe.imageUrl}
                         alt={crepe.alt}

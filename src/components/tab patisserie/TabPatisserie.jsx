@@ -10,7 +10,7 @@ const Tabs = ({ children }) => {
 
     return (
         <div className="max-w-2xl w-full px-2  bg-[#e8eaeb] ">
-            <div className="w-full max-w-2xl py-2  bg-[#e8eaeb]   md:max-w-full [&_button]:max-w-fit inline-flex flex-nowrap  gap-4 md:px-4 overflow-x-scroll hide-scroll-bar ">
+            <div className="w-full max-w-2xl py-2  md:max-w-full [&_button]:max-w-fit inline-flex flex-nowrap  gap-4 md:px-4 overflow-x-scroll hide-scroll-bar ">
                 {children.map(child => (
                     <button
                         key={child.props.label}

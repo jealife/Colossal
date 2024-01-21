@@ -31,9 +31,9 @@ export default function GateauAuFour() {
             {
                 gateauAuxFour.map((gateauAuFour) => (
                     <img
-                        data-aos="zoom-in"
-                        data-aos-duration="500"
-                        data-aos-delay="300"
+                        data-aos="fade-up"
+                        data-aos-duration="800"
+                        data-aos-delay="100"
                         key={gateauAuFour.id}
                         src={gateauAuFour.imageUrl}
                         alt={gateauAuFour.alt}
