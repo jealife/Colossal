@@ -28,7 +28,7 @@ export default function Home() {
       <div className="about-section w-full flex flex-col items-center">
         <div className="about-wrapper max-w-4xl py-20 md:py-16 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-4 ">
-            <h2 className="text-4xl text-gray-950 md:text-[40px] font-semibold tracking-tighter leading-[1em]">
+            <h2 className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]">
               Hello chers Honorable !
             </h2>
 
@@ -38,12 +38,14 @@ export default function Home() {
               personnel se fusionnent pour vous offrir une expérience absolument
               unique.
             </p>
-            <div className="">
+
+
+            <div className="pt-5">
               <h4 className="text-gray-950 text-xl">
                 Avant tout vous devez connaître ces 3 façons de penser qui vous
                 accompagneront ici :
               </h4>
-              <ul className="py-3 flex flex-col gap-2">
+              <ul className="py-3 flex flex-col gap-2 text-slate-900">
                 <li className="flex gap-4 items-center">
                   <AiTwotoneStar className="text-2xl text-pink-900" />
                   Vous êtes le sel de la terre et la lumière du monde
@@ -59,6 +61,10 @@ export default function Home() {
                   maison.
                 </li>
               </ul>
+            </div>
+
+            <div className="">
+              
             </div>
           </div>
         </div>
