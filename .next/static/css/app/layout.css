@@ -835,6 +835,9 @@ video {
 .border-slate-500\/50 {
   border-color: rgb(100 116 139 / 0.5);
 }
+.border-slate-500\/30 {
+  border-color: rgb(100 116 139 / 0.3);
+}
 .bg-\[\#e8eaeb\] {
   --tw-bg-opacity: 1;
   background-color: rgb(232 234 235 / var(--tw-bg-opacity));

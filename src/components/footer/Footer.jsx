@@ -5,7 +5,7 @@ import logo from '../../../public/assets/images/logo.png'
 export default function Footer() {
   return (
     <footer className='overflow-x-hidden  flex flex-col items-center gap-20 justify-center w-full py-10'>
-      <div className="w-full max-w-4xl flex flex-col items-center gap-14 px-4 border-t  border-slate-500/50"
+      <div className="w-full max-w-4xl flex flex-col items-center gap-14 px-4 "
         x-data="{}"
         x-init="$nextTick(() => {
           let ul = $refs.logos;
@@ -66,7 +66,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer grid grid-cols-3 py-5 sm:grid-cols-1">
+        <div className="footer grid grid-cols-3 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
 
           <div className="flex flex-col gap-3">
             <div className="logo">
