@@ -1,15 +1,17 @@
+import Image from 'next/image'
 import React from 'react'
+import logo from '../../../public/assets/images/logo.png'
 
 export default function Footer() {
   return (
-    <footer className='overflow-x-hidden  flex flex-col items-center justify-center w-full py-10'>
-      <div className=""
+    <footer className='overflow-x-hidden  flex flex-col items-center gap-5 justify-center w-full py-10'>
+      <div className="w-full max-w-4xl"
         x-data="{}"
         x-init="$nextTick(() => {
           let ul = $refs.logos;
           ul.insertAdjacentHTML('afterend', ul.outerHTML);
           ul.nextSibling.setAttribute('aria-hidden', 'true');})">
-        <div class="w-full max-w-2xl inline-flex flex-nowrap items-center [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+        <div class="w-full inline-flex flex-nowrap items-center [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
           <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
             <li>
               <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fdda99998-cc70-4bae-9cea-059e2e7b9afc%2FF37B243F-810D-4B38-8DE7-6CE985C57257.jpeg?table=block&id=d2a3926a-0d4b-4fb4-bcef-daa0af0fc48a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2" alt="Gateau crêpes au chocolat"
@@ -62,6 +64,26 @@ export default function Footer() {
                 className='object-cover w-72 h-24 sm:w-56 sm:h-20 rounded-full' />
             </li>
           </ul>
+        </div>
+
+        <div className="footer grid grid-cols-3 py-5 sm:grid-cols-1">
+
+          <div className="flex flex-col gap-3">
+            <div className="logo">
+              <Image
+                src={logo}
+                width={100}
+                alt="Logo Clossal"
+                className='invert'
+              />
+            </div>
+            <div className="">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam?
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </footer>
