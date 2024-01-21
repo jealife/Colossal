@@ -41,11 +41,19 @@ export default function Home() {
       <div className="about-section w-full flex flex-col items-center" id="apropos">
         <div className="about-wrapper max-w-4xl py-20 md:py-16 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-4 ">
-            <h2 className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]">
+            <h2 className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
               Hello chers Honorable !
             </h2>
 
-            <p className="text-[18px] text-slate-900 dark:text-slate-50 leading-[1.5em] font-normal ">
+            <p className="text-[18px] text-slate-900 dark:text-slate-50 leading-[1.5em] font-normal "
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
               Bienvenue dans l’univers de Colossal Mind And Cake. J’ai créé un
               espace où deux de mes passions, la pâtisserie et le développement
               personnel se fusionnent pour vous offrir une expérience absolument
@@ -54,20 +62,36 @@ export default function Home() {
 
 
             <div className="pt-5">
-              <h4 className="text-gray-950 text-xl">
+              <h4 className="text-gray-950 text-xl"
+
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100">
                 Avant tout vous devez connaître ces 3 façons de penser qui vous
                 accompagneront ici :
               </h4>
               <ul className="py-3 flex flex-col gap-2 text-slate-900 text-[16px]">
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-4 items-center"
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
                   Vous êtes le sel de la terre et la lumière du monde
                 </li>
-                <li className="flex gap-4 items-center">
+                <li className="flex gap-4 items-center"
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
                   Une ville située sur une montagne ne peut être cachée
                 </li>
-                <li className="flex gap-4 items-start ">
+                <li className="flex gap-4 items-start "
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
                   <AiTwotoneStar className="text-4xl text-pink-900" />
                   On allume pas une lampe pour la mettre sous le boisseau , mais
                   sur le chandelier et elle éclaire tout ceux qui sont dans la
