@@ -26,7 +26,8 @@ const gateauAuxFour = [
 
 export default function GateauAuFour() {
     return (
-        <Fragment>
+        <Fragment 
+        >
             {
                 gateauAuxFour.map((gateauAuFour) => (
                     <img

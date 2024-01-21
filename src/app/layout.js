@@ -23,12 +23,19 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
+      <Head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </Head>
       <body className={inter.className}>
         <header className='flex w-full flex-col  
         items-center py-5 md:py-4 fixed top-0 left-0 bg-black/65 border-b border-slate-500/25 dark:border-slate-50/[0.06]  backdrop-blur-3xl   '>
           <Nav />
         </header>
         {children}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
       </body>
     </html>
   )
