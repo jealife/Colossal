@@ -40,6 +40,9 @@ export default function LayerCakes() {
             {
                 layerCakes.map((layerCake) => (
                     <img
+                        data-aos="zoom-in"
+                        data-aos-duration="500"
+                        data-aos-delay="300"
                         key={layerCake.id}
                         src={layerCake.imageUrl}
                         alt={layerCake.alt}

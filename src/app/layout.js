@@ -2,7 +2,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Nav from '@/components/navigation/Nav'
 import Head from 'next/head';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const inter = Inter({
   subsets: ['latin'], display: 'swap',

@@ -26,11 +26,14 @@ const gateauAuxFour = [
 
 export default function GateauAuFour() {
     return (
-        <Fragment 
+        <Fragment
         >
             {
                 gateauAuxFour.map((gateauAuFour) => (
                     <img
+                        data-aos="zoom-in"
+                        data-aos-duration="500"
+                        data-aos-delay="300"
                         key={gateauAuFour.id}
                         src={gateauAuFour.imageUrl}
                         alt={gateauAuFour.alt}
