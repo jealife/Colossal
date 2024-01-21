@@ -49,7 +49,7 @@ export default function Home() {
               Hello chers Honorable !
             </h2>
 
-            <p className="text-[18px] text-slate-900 dark:text-slate-50 leading-[1.5em] font-normal "
+            <p className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="100"
