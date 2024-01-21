@@ -13,7 +13,7 @@ export default function Footer() {
           let ul = $refs.logos;
           ul.insertAdjacentHTML('afterend', ul.outerHTML);
           ul.nextSibling.setAttribute('aria-hidden', 'true');})">
-        <div class="w-full inline-flex flex-nowrap items-center [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+        <div class="w-full inline-flex flex-nowrap items-center ">
           <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
             <li>
               <img src="https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2Fdda99998-cc70-4bae-9cea-059e2e7b9afc%2FF37B243F-810D-4B38-8DE7-6CE985C57257.jpeg?table=block&id=d2a3926a-0d4b-4fb4-bcef-daa0af0fc48a&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2" alt="Gateau crêpes au chocolat"
@@ -80,7 +80,7 @@ export default function Footer() {
               />
             </div>
             <div className="">
-              <p className='text-slate-900 text-xl'>
+              <p className='text-slate-900 text-md'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam?
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function Footer() {
 
           <div className="links flex flex-col items-start text-left gap-3">
             <h5 className='font-bold text-slate-950'>Liens</h5>
-            <ul className='text-sm text-slate-900 '>
+            <ul className='text-md text-slate-900 '>
               <li>
                 <Link href='/'
                   className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
