@@ -13,7 +13,7 @@ import LayerCakes from "@/components/gallery/LayerCakes";
 
 export default function page() {
   return (
-    <main className="flex min-h-screen  flex-col items-center gap-11 pb-20">
+    <main className="flex min-h-screen  flex-col items-center gap-11 md:gap-14 pb-20">
       {/* Hero */}
       <div className="w-full h-auto items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-[url('https://images.unsplash.com/photo-1670541196589-745e07d27739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  ">
         <div className="hero-wrapper-overlay  py-28 px-24 sm:px-[20px]   w-full h-auto items-center justify-center  font-mono text-sm flex flex-col bg-gray-950/50">
