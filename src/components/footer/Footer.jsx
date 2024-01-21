@@ -68,7 +68,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer grid grid-cols-3 gap-4 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
+        <div className="footer bg-pink-900 p-4 rounded-md grid grid-cols-3 gap-4 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
 
           <div className="flex flex-col gap-3">
             <div className="logo">
@@ -76,11 +76,10 @@ export default function Footer() {
                 src={logo}
                 width={100}
                 alt="Logo Clossal"
-                className='invert'
               />
             </div>
             <div className="">
-              <p className='text-slate-900 text-md'>
+              <p className='text-slate-300 text-md'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam?
               </p>
             </div>
@@ -88,8 +87,8 @@ export default function Footer() {
 
 
           <div className="links flex flex-col items-start text-left gap-3">
-            <h5 className='font-bold text-slate-950'>Liens</h5>
-            <ul className='text-md text-slate-900 '>
+            <h5 className='font-bold text-slate-50'>Liens</h5>
+            <ul className='text-md text-slate-300 '>
               <li>
                 <Link href='/'
                   className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
@@ -119,16 +118,16 @@ export default function Footer() {
           </div>
 
           <div className="links flex flex-col items-start text-left gap-3">
-            <h5 className='font-bold text-slate-950'>Contact</h5>
-            <ul className=' flex gap-3 text-sm text-slate-900 '>
+            <h5 className='font-bold text-slate-50'>Contact</h5>
+            <ul className=' flex gap-3 text-sm text-slate-300 '>
               <li>
                 <Link href='https://wa.me/629109414'>
-                  <FaWhatsapp className='text-xl hover:text-pink-900 ' />
+                  <FaWhatsapp className='text-xl hover:text-pink-200 ' />
                 </Link>
               </li>
               <li>
                 <Link href='https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA=='>
-                  <FaInstagram className='text-xl hover:text-pink-900 ' />
+                  <FaInstagram className='text-xl hover:text-pink-200 ' />
                 </Link>
               </li>
             </ul>
