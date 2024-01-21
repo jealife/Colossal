@@ -28,7 +28,7 @@ export default function Nav() {
                     <Link href="/patisserie" className={`link hover:text-yellow-500 duration-300 ${pathname === '/patisserie' ? 'active' : ''}`}>Pâtisserie</Link>
                     <Link href="/programme" className={`link hover:text-yellow-500 duration-300 ${pathname === '/programme' ? 'active' : ''}`}>Programme</Link>
                     <Link href="/reconnect.me" className={`link hover:text-yellow-500 duration-300 ${pathname === '/reconnect.me' ? 'active' : ''}`}>Reconect.me</Link>
-                    <Link href="/a-propos" className={`link hover:text-yellow-500 duration-300 ${pathname === '/a-propos' ? 'active' : ''}`}>A propos</Link>
+                    <Link href="/#apropos" className={`link hover:text-yellow-500 duration-300 ${pathname === '/a-propos' ? 'active' : ''}`}>A propos</Link>
 
                 </div>
                 <div className="menu-icon hidden  md:block" >

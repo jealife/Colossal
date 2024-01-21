@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="about-section w-full flex flex-col items-center">
+      <div className="about-section w-full flex flex-col items-center" id="apropos">
         <div className="about-wrapper max-w-4xl py-20 md:py-16 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-4 ">
             <h2 className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]">
@@ -45,7 +45,7 @@ export default function Home() {
                 Avant tout vous devez connaître ces 3 façons de penser qui vous
                 accompagneront ici :
               </h4>
-              <ul className="py-3 flex flex-col gap-2 text-slate-900">
+              <ul className="py-3 flex flex-col gap-2 text-slate-900 text-[16px]">
                 <li className="flex gap-4 items-center">
                   <AiTwotoneStar className="text-2xl text-pink-900" />
                   Vous êtes le sel de la terre et la lumière du monde
