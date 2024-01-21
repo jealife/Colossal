@@ -8,6 +8,7 @@ import Gallery from "@/components/gallery/Gallery";
 import Crepres from "@/components/gallery/Crepres";
 import GateauAuFour from "@/components/gallery/GateauAuFour";
 import GateauCrepes from "@/components/gallery/GateauCrepes";
+import Cupcakes from "@/components/gallery/Cupcakes";
 
 export default function page() {
   return (
@@ -71,13 +72,18 @@ export default function page() {
           </Gallery>
         </Tab>
 
+        <Tab label="Layer cake"></Tab>
+
         <Tab label="Crêpes">
           <Gallery>
             <Crepres />
           </Gallery>
         </Tab>
 
-        <Tab label="Layer cake"></Tab>
+        <Tab label="Cupcakes"></Tab>
+        <Gallery>
+          <Cupcakes/>
+        </Gallery>
       </Tabs>
 
       {/* event section  */}
