@@ -26,8 +26,8 @@ export default function page() {
         <div className="text-center  font-semibold text-[16px] leading-[1.2em]">
           <h3 className=' text-2xl text-slate-900  dark:text-slate-50'
             data-aos="fade-in"
-            data-aos-duration="500"
-            data-aos-delay="100"
+            data-aos-duration="800"
+            data-aos-delay="200"
           >
             Bienvenue dans le Programme "Atteindre Son Sommet"!
           </h3>
@@ -35,7 +35,11 @@ export default function page() {
 
         <div className="w-full ">
           <div className="flex ">
-            <p className='text-[18px] text-slate-800 dark:text-slate-50 leading-[1.5em] font-normal' >
+            <p className='text-[18px] text-slate-800 dark:text-slate-50 leading-[1.5em] font-normal'
+             data-aos="fade-in"
+             data-aos-duration="800"
+             data-aos-delay="200"
+             >
               Tu dois savoir que je ne suis pas une agence de marketing & réseaux sociaux ou encore social media manager.
 
               L’agence de marketing et réseaux sociaux taide à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
