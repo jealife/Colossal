@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../../../public/assets/images/logo.png'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -82,6 +83,26 @@ export default function Footer() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam?
               </p>
             </div>
+          </div>
+          <div className="links flex flex-col items-end text-right gap-3">
+            <h5>Liens</h5>
+            <ul className='text-sm [&_li]:hover:text-pink-900 duration-500'>
+              <li>
+                <Link href='/'> Accueil</Link>
+              </li>
+              <li>
+                <Link href='/patisserie'> Pâtisserie</Link>
+              </li>
+              <li>
+                <Link href='/programme'> Programme</Link>
+              </li>
+              <li>
+                <Link href='/reconnect.me'> Reconnect.me</Link>
+              </li>
+              <li>
+                <Link href='/#apropos'> A propos</Link>
+              </li>
+            </ul>
           </div>
 
         </div>
