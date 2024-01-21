@@ -40,7 +40,7 @@ export default function LayerCakes() {
             {
                 layerCakes.map((layerCake) => (
                     <img
-                        data-aos="fade-up"
+                        data-aos="fade-in"
                         data-aos-duration="800"
                         data-aos-delay="100"
                         key={layerCake.id}

@@ -31,7 +31,7 @@ export default function GateauAuFour() {
             {
                 gateauAuxFour.map((gateauAuFour) => (
                     <img
-                        data-aos="fade-up"
+                        data-aos="fade-in"
                         data-aos-duration="800"
                         data-aos-delay="100"
                         key={gateauAuFour.id}

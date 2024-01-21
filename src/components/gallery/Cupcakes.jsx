@@ -40,7 +40,7 @@ export default function Cupcakes() {
             {
                 cupcakes.map((Cupcake) => (
                     <img
-                        data-aos="fade-up"
+                        data-aos="fade-in"
                         data-aos-duration="800"
                         data-aos-delay="100"
                         key={Cupcake.id}
