@@ -4,6 +4,7 @@ import Nav from '@/components/navigation/Nav'
 import Head from 'next/head';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from '@/components/footer/Footer';
 
 const inter = Inter({
   subsets: ['latin'], display: 'swap',
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
         <script>
           AOS.init();
         </script>
+        <Footer/>
       </body>
     </html>
   )
