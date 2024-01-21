@@ -583,6 +583,9 @@ video {
 .top-0 {
   top: 0px;
 }
+.-z-50 {
+  z-index: -50;
+}
 .z-\[9999\] {
   z-index: 9999;
 }
@@ -813,6 +816,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(80 7 36 / var(--tw-bg-opacity));
 }
+.bg-pink-950\/5 {
+  background-color: rgb(80 7 36 / 0.05);
+}
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -820,16 +826,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-pink-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
-}
-.bg-pink-950\/30 {
-  background-color: rgb(80 7 36 / 0.3);
-}
-.bg-pink-950\/5 {
-  background-color: rgb(80 7 36 / 0.05);
 }
 .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1491510736257-3ad769ff47b6\?q\=80\&w\=2070\&auto\=format\&fit\=crop\&ixlib\=rb-4\.0\.3\&ixid\=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA\%3D\%3D\'\)\] {
   background-image: url('https://images.unsplash.com/photo-1491510736257-3ad769ff47b6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -859,6 +855,9 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.p-2 {
+  padding: 0.5rem;
+}
 .p-24 {
   padding: 6rem;
 }
@@ -884,10 +883,6 @@ video {
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 .py-12 {
   padding-top: 3rem;
@@ -973,10 +968,6 @@ video {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1115,10 +1106,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
   background: #500724;
 }
-.active{
-  color: #EAB308;
+.active {
+  color: #eab308;
 }
-
 
 .hide-scroll-bar {
   -ms-overflow-style: none;
@@ -1126,6 +1116,23 @@ body::-webkit-scrollbar-thumb {
 }
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
+}
+.mask {
+  z-index: -100000; 
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 50px,
+    black calc(100% - 50px),
+    transparent 100%
+  ); 
+          mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 50px,
+    black calc(100% - 50px),
+    transparent 100%
+  );
 }
 .hover\:bg-pink-950:hover {
   --tw-bg-opacity: 1;
@@ -1234,11 +1241,6 @@ body::-webkit-scrollbar-thumb {
   .md\:text-\[49px\] {
     font-size: 49px;
   }
-
-  .md\:\[mask-image\:_linear-gradient\(to_right\2c transparent_0\2c _black_50px\2c _black_calc\(100\%-50px\)\2c transparent_100\%\)\] {
-    -webkit-mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 50px),transparent 100%);
-            mask-image: linear-gradient(to right,transparent 0, black 50px, black calc(100% - 50px),transparent 100%);
-  }
 }
 @media (max-width: 639px) {
 
@@ -1293,3 +1295,4 @@ body::-webkit-scrollbar-thumb {
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
+
