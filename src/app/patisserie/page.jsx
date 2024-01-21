@@ -9,6 +9,7 @@ import Crepres from "@/components/gallery/Crepres";
 import GateauAuFour from "@/components/gallery/GateauAuFour";
 import GateauCrepes from "@/components/gallery/GateauCrepes";
 import Cupcakes from "@/components/gallery/Cupcakes";
+import LayerCakes from "@/components/gallery/LayerCakes";
 
 export default function page() {
   return (
@@ -72,7 +73,11 @@ export default function page() {
           </Gallery>
         </Tab>
 
-        <Tab label="Layer cake"></Tab>
+        <Tab label="Layer cake">
+          <Gallery>
+            <LayerCakes />
+          </Gallery>
+        </Tab>
 
         <Tab label="Crêpes">
           <Gallery>
@@ -80,10 +85,13 @@ export default function page() {
           </Gallery>
         </Tab>
 
-        <Tab label="Cupcakes"></Tab>
-        <Gallery>
-          <Cupcakes/>
-        </Gallery>
+        <Tab label="Cupcakes">
+          <Gallery>
+            <Cupcakes />
+          </Gallery>
+        </Tab>
+
+
       </Tabs>
 
       {/* event section  */}

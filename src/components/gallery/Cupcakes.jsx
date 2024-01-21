@@ -38,7 +38,7 @@ export default function Cupcakes() {
     return (
         <Fragment>
             {
-                Cupcakes.map((Cupcake) => (
+                cupcakes.map((Cupcake) => (
                     <img
                         key={Cupcake.id}
                         src={Cupcake.imageUrl}
