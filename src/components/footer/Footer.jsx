@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import logo from '../../../public/assets/images/logo.png'
 import Link from 'next/link'
+import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -67,7 +68,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer grid grid-cols-3 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
+        <div className="footer grid grid-cols-3 gap-4 py-5 sm:grid-cols-1 border-t  border-slate-500/30">
 
           <div className="flex flex-col gap-3">
             <div className="logo">
@@ -79,28 +80,53 @@ export default function Footer() {
               />
             </div>
             <div className="">
-              <p>
+              <p className='text-slate-900 text-xl'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam?
               </p>
             </div>
           </div>
-          <div className="links flex flex-col items-end text-right gap-3">
+          <div className="links flex flex-col items-start text-left gap-3">
             <h5>Liens</h5>
-            <ul className='text-sm [&_li]:hover:text-pink-900 duration-500'>
+            <ul className='text-sm text-slate-900 '>
               <li>
-                <Link href='/'> Accueil</Link>
+                <Link href='/'
+                  className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
+                > Accueil</Link>
               </li>
               <li>
-                <Link href='/patisserie'> Pâtisserie</Link>
+                <Link href='/patisserie'
+                  className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
+                > Pâtisserie</Link>
               </li>
               <li>
-                <Link href='/programme'> Programme</Link>
+                <Link href='/programme'
+                  className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
+                > Programme</Link>
               </li>
               <li>
-                <Link href='/reconnect.me'> Reconnect.me</Link>
+                <Link href='/reconnect.me'
+                  className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
+                > Reconnect.me</Link>
               </li>
               <li>
-                <Link href='/#apropos'> A propos</Link>
+                <Link href='/#apropos'
+                  className='hover:text-pink-900 hover:underline underline-offset-1  duration-500'
+                > A propos</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="links flex flex-col items-start text-left gap-3">
+            <h5>Contact</h5>
+            <ul className=' flex gap-3 text-sm text-slate-900 '>
+              <li>
+                <Link href='https://wa.me/629109414'>
+                  <FaWhatsapp className='text-xl hover:text-pink-900 ' />
+                </Link>
+              </li>
+              <li>
+                <Link href='https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA=='>
+                  <FaInstagram className='text-xl hover:text-pink-900 ' />
+                </Link>
               </li>
             </ul>
           </div>
