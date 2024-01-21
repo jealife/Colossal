@@ -13,7 +13,7 @@ const Tabs = ({ children }) => {
             <div className="w-full max-w-2xl md:max-w-full [&_button]:max-w-fit inline-flex flex-nowrap  gap-4 md:px-4 overflow-x-scroll hide-scroll-bar "
                 data-aos="fade-in"
                 data-aos-duration="800"
-                data-aos-delay="300"
+                data-aos-delay="500"
             >
                 {children.map(child => (
                     <button
