@@ -9,7 +9,7 @@ const layerCakes = [
     },
     {
         id: 2,
-        imageUrl: 'https://images.unsplash.com/photo-1566704298383-2925e1277298?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGxheWVyJTIwY2FrZXxlbnwwfHwwfHx8MA%3D%3D',
+        imageUrl: 'https://images.unsplash.com/photo-1551879400-111a9087cd86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGxheWVyJTIwY2FrZXN8ZW58MHx8MHx8fDA%3D',
         alt: 'Layer Cakes'
     },
     {
@@ -19,17 +19,17 @@ const layerCakes = [
     },
     {
         id: 4,
-        imageUrl: 'https://images.unsplash.com/photo-1490126125528-a0c3b2998dcd?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imageUrl: 'https://images.unsplash.com/photo-1627247359162-4645d9f8543b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         alt: 'Layer Cakes'
     },
     {
         id: 5,
-        imageUrl: 'https://images.unsplash.com/photo-1540337706094-da10342c93d8?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imageUrl: 'https://images.unsplash.com/photo-1627308595171-d1b5d67129c4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         alt: 'Layer Cakes'
     },
     {
         id: 6,
-        imageUrl: 'https://images.unsplash.com/photo-1597083722160-c31d67d4af44?q=80&w=1832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        imageUrl: 'https://images.unsplash.com/photo-1604866973367-580068bb3a34?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         alt: 'Layer Cakes'
     },
 ]
