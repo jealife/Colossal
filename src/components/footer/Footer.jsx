@@ -5,7 +5,7 @@ import logo from '../../../public/assets/images/logo.png'
 export default function Footer() {
   return (
     <footer className='overflow-x-hidden  flex flex-col items-center gap-20 justify-center w-full py-10'>
-      <div className="w-full max-w-4xl flex flex-col items-center gap-14 px-4"
+      <div className="w-full max-w-4xl flex flex-col items-center gap-14 px-4 border-t  border-slate-500/50"
         x-data="{}"
         x-init="$nextTick(() => {
           let ul = $refs.logos;
