@@ -4,7 +4,7 @@ import logo from '../../../public/assets/images/logo.png'
 
 export default function Footer() {
   return (
-    <footer className='overflow-x-hidden  flex flex-col items-center gap-20 justify-center w-full py-10'>
+    <footer className='overflow-x-hidden  flex flex-col items-center gap-20 justify-center w-full py-14'>
       <div className="w-full max-w-4xl flex flex-col items-center gap-14 px-4 "
         x-data="{}"
         x-init="$nextTick(() => {
