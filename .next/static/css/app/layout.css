@@ -761,6 +761,15 @@ video {
 .gap-5 {
   gap: 1.25rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-12 {
+  gap: 3rem;
+}
+.gap-11 {
+  gap: 2.75rem;
+}
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));

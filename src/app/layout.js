@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <Head>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        {/* <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> */}
       </Head>
       <body className={inter.className}>
         <header className='flex w-full flex-col  
