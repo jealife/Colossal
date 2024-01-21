@@ -1117,23 +1117,6 @@ body::-webkit-scrollbar-thumb {
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
 }
-.mask {
-  z-index: -100000; 
-  -webkit-mask-image: linear-gradient(
-    to right,
-    transparent 0,
-    black 50px,
-    black calc(100% - 50px),
-    transparent 100%
-  ); 
-          mask-image: linear-gradient(
-    to right,
-    transparent 0,
-    black 50px,
-    black calc(100% - 50px),
-    transparent 100%
-  );
-}
 .hover\:bg-pink-950:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(80 7 36 / var(--tw-bg-opacity));
@@ -1295,4 +1278,5 @@ body::-webkit-scrollbar-thumb {
   max-width: -moz-fit-content;
   max-width: fit-content;
 }
+
 
