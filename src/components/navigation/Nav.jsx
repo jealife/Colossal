@@ -19,7 +19,7 @@ export default function Nav() {
                         <Image
                             src={logo}
                             width={100}
-                            alt="Logo"
+                            alt="Logo Clossal"
                         />
                     </Link>
                 </div>
