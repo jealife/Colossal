@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='overflow-x-hidden  flex flex-col items-center justify-center w-full'>
+    <footer className='overflow-x-hidden  flex flex-col items-center justify-center w-full py-10'>
       <div className=""
         x-data="{}"
         x-init="$nextTick(() => {
