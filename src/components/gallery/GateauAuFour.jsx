@@ -19,7 +19,17 @@ const gateauAuxFour = [
     },
     {
         id: 4,
-        imageUrl: 'https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F29d4cea4-4dda-4f6a-a7c4-85a6cc33a260%2FFE6A8C5C-91BC-496D-909A-FA703420BD96.jpeg?table=block&id=606a0fec-939d-4753-845f-acfacec51086&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2',
+        imageUrl: 'https://pushy-mapusaurus-373.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F00f15a6e-8673-4a04-a350-f95d3c2ce384%2F29d4cea4-4dda-4f6a-a7c4-85a6cc33a260%2FFE6A8C5C-91BC-496D-909A-FA703420BD96.jpeg?table=block&id=606a0fec-939d-4753-845f-acfacec51086&spaceId=00f15a6e-8673-4a04-a350-f95d3c2ce384&width=2000&userId=&cache=v2https://cdn.pixabay.com/photo/2014/07/10/13/34/sponge-cake-389071_1280.jpg',
+        alt: 'Gateau au four rond'
+    },
+    {
+        id: 5,
+        imageUrl: 'https://cdn.pixabay.com/photo/2019/02/27/00/40/cake-4023204_1280.jpg',
+        alt: 'Gateau au four rond'
+    },
+    {
+        id: 6,
+        imageUrl: 'https://cdn.pixabay.com/photo/2016/03/15/10/02/cake-1257615_1280.jpg',
         alt: 'Gateau au four rond'
     },
 ]

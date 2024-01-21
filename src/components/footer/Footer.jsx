@@ -116,8 +116,9 @@ export default function Footer() {
             </div>
             <div className="">
               <p className="text-slate-300 text-md">
-                Bienvenue dans l’univers de Colossal Mind And Cake où deux de mes passions, la pâtisserie et le
-                développement personnel se fusionnent.
+                Bienvenue dans l’univers de Colossal Mind And Cake où deux de
+                mes passions, la pâtisserie et le développement personnel se
+                fusionnent.
               </p>
             </div>
           </div>
