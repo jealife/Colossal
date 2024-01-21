@@ -85,8 +85,10 @@ export default function Footer() {
               </p>
             </div>
           </div>
+
+
           <div className="links flex flex-col items-start text-left gap-3">
-            <h5>Liens</h5>
+            <h5 className='font-bold'>Liens</h5>
             <ul className='text-sm text-slate-900 '>
               <li>
                 <Link href='/'
@@ -115,8 +117,9 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+
           <div className="links flex flex-col items-start text-left gap-3">
-            <h5>Contact</h5>
+            <h5 className='font-bold'>Contact</h5>
             <ul className=' flex gap-3 text-sm text-slate-900 '>
               <li>
                 <Link href='https://wa.me/629109414'>
