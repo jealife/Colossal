@@ -36,10 +36,10 @@ export default function page() {
         <div className="w-full ">
           <div className="flex ">
             <p className='text-[18px] text-slate-800 dark:text-slate-50 leading-[1.5em] font-normal'
-             data-aos="fade-in"
-             data-aos-duration="800"
-             data-aos-delay="200"
-             >
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
               Tu dois savoir que je ne suis pas une agence de marketing & réseaux sociaux ou encore social media manager.
 
               L’agence de marketing et réseaux sociaux taide à avoir de l’impact sur les réseaux sociaux , gère ton compte pour toi et crée des visuels pour toi.
@@ -54,27 +54,55 @@ export default function page() {
 
         <div className="grid grid-cols-2 md:grid-cols-1 gap-3 items-center justify-center w-full py-5 border-t  border-slate-500/50 ">
           <div className="flex flex-col gap-2 ">
-            <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium '>
+            <h3 className='text-2xl text-slate-900 dark:text-slate-50 font-medium '
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
               À qui ce programme s’adresse t-il ?
             </h3>
             <Image src={woman} className='w-full md:w-52 h-full hidden md:block' />
-            <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal mt-3' >
+            <p className='text-[16px] text-slate-950 dark:text-slate-50 leading-[1.5em] font-normal mt-3'
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="100"
+            >
               Le programme <span className='font-semibold'>Atteindre son sommet </span> s’adresse aux entrepreneurs débutants qui souhaitent faire décoller leur activité sur Instagram.
             </p>
             <ul class="max-w-md space-y-1 text-gray-700 list-disc list-inside dark:text-gray-400 ">
-              <li className='mt-2'>
+              <li className='mt-2'
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 Si tu as un projet que tu aimerais mettre en lumière sur Instagram mais tu ne sais pas comment t’y prendre
               </li>
-              <li>
+              <li
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 Si tu as une idée que tu n’arrives pas à développer
               </li>
-              <li>
+              <li
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 Si tu ne comprends rien du fonctionnement de l’algorithme Instagram
               </li>
-              <li>
+              <li
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 Si tu n’arrives pas à créer tes propres visuels avec Canva ou que tu aimerais approfondir tes compétences en création de visuel
               </li>
-              <li>
+              <li
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 Si tu as l’impression de stagner malgré tous tes efforts
               </li>
             </ul>
