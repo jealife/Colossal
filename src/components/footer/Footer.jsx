@@ -174,12 +174,12 @@ export default function Footer() {
             <ul className=" flex gap-3 text-sm text-slate-300 ">
               <li>
                 <Link href="https://wa.me/629109414">
-                  <FaWhatsapp className="text-xl hover:text-pink-200 " />
+                  <FaWhatsapp className="text-2xl hover:text-pink-200 " />
                 </Link>
               </li>
               <li>
                 <Link href="https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA==">
-                  <FaInstagram className="text-xl hover:text-pink-200 " />
+                  <FaInstagram className="text-2xl hover:text-pink-200 " />
                 </Link>
               </li>
             </ul>
