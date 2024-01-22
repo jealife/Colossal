@@ -596,6 +596,15 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.float-end {
+  float: inline-end;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
 .-mt-24 {
   margin-top: -6rem;
 }
@@ -681,6 +690,9 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-4 {
+  width: 1rem;
+}
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -738,6 +750,12 @@ video {
 }
 .list-disc {
   list-style-type: disc;
+}
+.grid-flow-row-dense {
+  grid-auto-flow: row dense;
+}
+.grid-flow-col-dense {
+  grid-auto-flow: column dense;
 }
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));

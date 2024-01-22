@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
 
 import patisserie from "../../public/assets/images/patisserie.jpeg";
+import leaves from "../../public/assets/images/leaves.jpg";
 
 export default function Home() {
   return (
@@ -119,7 +120,8 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Colossal Cake : Patisserie, plaisirs gourmands
+                  Colossal<span className="text-yellow-500"> Cake</span> :
+                  Patisserie, Plaisirs gourmands
                 </h2>
 
                 <p
@@ -149,6 +151,65 @@ export default function Home() {
                   width={300}
                   className="md:w-full md:h-56 h-full   md:block rounded-md object-cover"
                 />
+              </div>
+            </div>
+
+            <div className="pt-4 grid  g md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
+              <div className="w-full flex justify-start flex-col gap-4 col-span-2">
+                <h2
+                  className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
+                  Colossal<span className="text-yellow-500"> Mind</span> :
+                  Croissance personnelle, Glow up, Accomplissement
+                </h2>
+                
+
+                <p
+                  className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
+                  Dans notre univers sucré, nous croyons premièrement en la
+                  spiritualité. Mind = Esprit. Mais le mot Mind englobe
+                  également les termes tels qu’elle la vision , l’identité, la
+                  découverte de soi, business , réussite , accomplissement. Mon
+                  engagement va bien au-delà des plaisirs sucrés ! Je crois en
+                  l'épanouissement personnel et surtout à l’accomplissement de
+                  soi…
+                </p>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
+                  <img
+                    src='https://cdn.pixabay.com/photo/2020/12/14/15/47/leaves-5831243_1280.jpg'
+                    width={300}
+                    className="md:w-full w-96xl md:h-56 float-end   md:block rounded-md "
+                  />
+                </div>
+                
+                <p
+                  className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
+                  c’est pourquoi je propose des programmes conçus pour nous
+                  aider à atteindre les sommets de nous-mêmes, parfois négligés
+                  ou méconnus. Tu l’as bien compris , Colossal t’aide à
+                  effectuer le voyage introspectif qui te permettra de te
+                  réaligner avec ta vision afin de la développer. Cette passion
+                  ou aspiration qui fait battre ton cœur et qui est lié quelque
+                  part à ta mission de vie. Et ce , par divers programmes. Alors
+                  ? Es-tu prêt(e) à t’embarquer dans cette aventure spéciale
+                  entre deux mondes uniques ? Découvre nos programmes et
+                  continuons ensemble la marche vers de nouveaux sommets !
+                </p>
               </div>
             </div>
           </div>
