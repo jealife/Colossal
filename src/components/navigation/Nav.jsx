@@ -58,11 +58,11 @@ function MobileNav({ open, setOpen }) {
 
             <div className="menu h-full flex flex-col  justify-center px-5  gap-3 text-slate-50">
                 <div className="links flex flex-col items-center justify-center gap-3  text-2xl">
-                    <Link href="/" className={`link hover:text-yellow-500 duration-300 ${pathname === '/' ? 'active' : ''}`} >Accueil</Link>
-                    <Link href="/patisserie" className={`link hover:text-yellow-500 duration-300 ${pathname === '/patisserie' ? 'active' : ''}`}>Pâtisserie</Link>
-                    <Link href="/programme" className={`link hover:text-yellow-500 duration-300 ${pathname === '/programme' ? 'active' : ''}`}>Programme</Link>
-                    <Link href="/reconnect.me" className={`link hover:text-yellow-500 duration-300 ${pathname === '/reconnect.me' ? 'active' : ''}`}>Reconect.me</Link>
-                    <Link href="/#apropos" className={`link hover:text-yellow-500 duration-300 ${pathname === '/a-propos' ? 'active' : ''}`}>A-propos</Link>
+                    <Link href="/" onClick={() => setOpen(!open)}  className={`link hover:text-yellow-500 duration-300 ${pathname === '/' ? 'active' : ''}`} >Accueil</Link>
+                    <Link href="/patisserie" onClick={() => setOpen(!open)}  className={`link hover:text-yellow-500 duration-300 ${pathname === '/patisserie' ? 'active' : ''}`}>Pâtisserie</Link>
+                    <Link href="/programme" onClick={() => setOpen(!open)}  className={`link hover:text-yellow-500 duration-300 ${pathname === '/programme' ? 'active' : ''}`}>Programme</Link>
+                    <Link href="/reconnect.me" onClick={() => setOpen(!open)}  className={`link hover:text-yellow-500 duration-300 ${pathname === '/reconnect.me' ? 'active' : ''}`}>Reconect.me</Link>
+                    <Link href="/#apropos" onClick={() => setOpen(!open)}  className={`link hover:text-yellow-500 duration-300 ${pathname === '/a-propos' ? 'active' : ''}`}>A-propos</Link>
 
                 </div>
                 <div className="social flex gap-3 items-center justify-center pb-14 pt-5 mt-24  px-5 border-solid border-t text-slate-50">
