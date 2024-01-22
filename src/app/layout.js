@@ -17,7 +17,7 @@ export const metadata = {
   keywords: ["Pâtisserie", "croissance", "Personnel", "Developpement"],
   openGraph: {
     icon: '/logo.png',
-    images: 'https://images.unsplash.com/photo-1624225203017-77f910f61d5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    images: 'https://images.unsplash.com/photo-1611497406092-4bc22c54b322?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 }
 
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
         <header className='flex w-full flex-col  
-        items-center py-5 md:py-4 fixed top-0 left-0 bg-black/65 border-b border-slate-500/25 dark:border-slate-50/[0.06]  backdrop-blur-3xl   '>
+        items-center py-5 md:py-4 fixed top-0 left-0 bg-black/50 border-b border-slate-500/25 dark:border-slate-50/[0.06]  backdrop-blur-3xl   '>
           <Nav />
         </header>
         {children}
