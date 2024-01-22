@@ -62,7 +62,7 @@ export default function page() {
               À qui ce programme s’adresse t-il ?
             </h3>
             <Image src={woman} className='w-full md:w-52 h-full hidden md:block'/>
-            <p className='text-[16px] text-slate-950  leading-[1.5em] font-normal mt-3'
+            <p className='text-[18px] text-slate-950  leading-[1.5em] font-normal mt-3'
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="100"
