@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
 
-import patisserie from '../../public/assets/images/patisserie.jpeg'
+import patisserie from "../../public/assets/images/patisserie.jpeg";
 
 export default function Home() {
   return (
@@ -111,7 +111,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="grid grid-cols-3 md:grid-cols-1 gap-5">
+            <div className="grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-md">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
@@ -138,7 +138,12 @@ export default function Home() {
                   de votre énergie quotidiennement, à un boost…etc
                 </p>
               </div>
-              <div className="image">
+              <div
+                className="image"
+                data-aos="fade-in"
+                data-aos-duration="800"
+                data-aos-delay="100"
+              >
                 <Image
                   src={patisserie}
                   width={300}
