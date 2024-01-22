@@ -1,8 +1,5 @@
-"use client";
 import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
-import carteFateau from "../../public/assets/images/carteFateau.jpeg";
-import leaves from "../../public/assets/images/leaves.jpg";
 import data from "../../data/home.json";
 import Image from "next/image";
 
@@ -117,8 +114,12 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  {data?.about.titre2.colossal} <span className="text-yellow-500"> {data?.about.titre2.cake} </span>
-                  {data?.about.titre2.suite} 
+                  {data?.about.cake.titre.colossal}{" "}
+                  <span className="text-yellow-500">
+                    {" "}
+                    {data?.about.cake.titre.cake}{" "}
+                  </span>
+                  {data?.about.cake.titre.suite}
                 </h2>
 
                 <p
@@ -127,11 +128,11 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  {data?.about.content.debut} 
+                  {data?.about.cake.content.debut}
                   <Link className="text-pink-900" href={"/patisserie"}>
-                  {data?.about.content.lien} 
+                    {data?.about.cake.content.lien}
                   </Link>
-                  {data?.about.content.fin} 
+                  {data?.about.cake.content.fin}
                 </p>
               </div>
               <div
@@ -141,7 +142,7 @@ export default function Home() {
                 data-aos-delay="100"
               >
                 <Image
-                  src={data?.about.imageUrl} 
+                  src={data?.about.cake.imageUrl}
                   width={300}
                   height={300}
                   className="md:w-full md:h-56 h-full   md:block rounded-md object-cover"
@@ -157,8 +158,12 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Colossal<span className="text-yellow-500"> Mind</span> :
-                  Croissance personnelle, Glow up, Accomplissement
+                  {data?.about.mind.titre.colossal}
+                  <span className="text-yellow-500">
+                    {" "}
+                    {data?.about.mind.titre.mind}
+                  </span>
+                  {data?.about.mind.titre.suite}
                 </h2>
 
                 <p
@@ -167,18 +172,11 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Dans notre univers sucré, nous croyons premièrement en la
-                  spiritualité. Mind = Esprit. Mais le mot Mind englobe
-                  également les termes tels qu’elle la vision , l’identité, la
-                  découverte de soi, business , réussite , accomplissement. Mon
-                  engagement va bien au-delà des plaisirs sucrés ! Je crois en
-                  l'épanouissement personnel et surtout à l’accomplissement de
-                  soi… c’est pourquoi je propose des{" "}
+                  {data?.about.mind.content.debut}
                   <Link className="text-pink-900" href={"/programme"}>
-                    {"programmes"}
-                  </Link>{" "}
-                  conçus pour nous aider à atteindre les sommets de nous-mêmes,
-                  parfois négligés ou méconnus.
+                    {data?.about.mind.content.lien}
+                  </Link>
+                  {data?.about.mind.content.fin}
                 </p>
 
                 <div
@@ -187,8 +185,9 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   <Image
-                    src={leaves}
+                    src={data?.about.mind.imageUrl}
                     width={600}
+                    height={300}
                     className="md:w-full h-56  md:h-56  object-cover  md:block rounded-md "
                   />
                 </div>
@@ -202,23 +201,16 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Tu l’as bien compris , Colossal t’aide à effectuer le voyage
-              introspectif qui te permettra de te réaligner avec ta vision afin
-              de la développer. Cette passion ou aspiration qui fait battre ton
-              cœur et qui est lié quelque part à ta mission de vie. Et ce , par
-              divers programmes. Alors ? Es-tu prêt(e) à t’embarquer dans cette
-              aventure spéciale entre deux mondes uniques ? Découvre nos
-              programmes et continuons ensemble la marche vers de nouveaux
-              sommets !
+              {data?.about.endAbout.content}
             </p>
             <Link
-              href="/programme"
+              href={data?.about.endAbout.boutton.link}
               className=" rounded-md font-semibold hover:text-gray-950 px-3 py-2 hover:bg-slate-50 w-max bg-pink-950 duration-500  text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 "
               data-aos="fade-in"
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Découvrir Nos Programmes
+              {data?.about.endAbout.boutton.text}
             </Link>
           </div>
         </div>
