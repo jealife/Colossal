@@ -1,10 +1,10 @@
-// import Image from 'next/image'
-import Image from "next/image";
+"use client";
 import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
-
 import carteFateau from "../../public/assets/images/carteFateau.jpeg";
 import leaves from "../../public/assets/images/leaves.jpg";
+import data from "../../data/home.json";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,8 +18,10 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Colossal <span className="text-yellow-500">mind</span> and{" "}
-              <span className="text-yellow-500">cake</span>
+              {data?.hero.titre.colossal}
+              <span className="text-yellow-500"> {data?.hero.titre.mind} </span>
+              {"and "}
+              <span className="text-yellow-500"> {data?.hero.titre.cake} </span>
             </h1>
             <p
               className=" text-slate-300 text-[24px] leading-[1.2em] "
@@ -27,7 +29,7 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="200"
             >
-              Pâtisserie & croissance personelle
+              {data?.hero.sousTitre}
             </p>
             <Link
               href="/programme"
@@ -36,7 +38,7 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="300"
             >
-              Programme
+              {data?.hero.boutton}
             </Link>
           </div>
         </div>
@@ -54,7 +56,7 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Hello chers Honorable !
+              {data?.about.titre}
             </h2>
 
             <p
@@ -63,10 +65,7 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              Bienvenue dans l’univers de Colossal Mind And Cake. J’ai créé un
-              espace où deux de mes passions, la pâtisserie et le développement
-              personnel se fusionnent pour vous offrir une expérience absolument
-              unique.
+              {data?.about.intro}
             </p>
 
             <div className="pt-5">
@@ -76,8 +75,7 @@ export default function Home() {
                 data-aos-duration="800"
                 data-aos-delay="100"
               >
-                Avant tout vous devez connaître ces 3 façons de penser qui vous
-                accompagneront ici :
+                {data?.about.sousTitre1}
               </h4>
               <ul className="py-3 flex flex-col gap-2 text-slate-900 text-[16px]">
                 <li
@@ -87,7 +85,7 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
-                  Vous êtes le sel de la terre et la lumière du monde
+                  {data?.about.pensees.pensee1}
                 </li>
                 <li
                   className="flex gap-4 items-center"
@@ -96,7 +94,7 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
-                  Une ville située sur une montagne ne peut être cachée
+                  {data?.about.pensees.pensee2}
                 </li>
                 <li
                   className="flex gap-4 items-start "
@@ -105,9 +103,8 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-3xl sm:text-6xl text-pink-900" />
-                  On allume pas une lampe pour la mettre sous le boisseau , mais
-                  sur le chandelier et elle éclaire tout ceux qui sont dans la
-                  maison.
+
+                  {data?.about.pensees.pensee3}
                 </li>
               </ul>
             </div>
@@ -134,14 +131,10 @@ export default function Home() {
                   Cake représente la partie{" "}
                   <Link className="text-pink-900" href={"/patisserie"}>
                     {"pâtisserie"}
-                  </Link>{" "}
-                  de ta nouvelle maison. Ici, tu découvriras nos créations avec
-                  des saveurs uniques et entièrement personnalisables. Sur
-                  précommande et sous devis. Vos commandes sont accompagnées de
-                  cartes thématiques qui vous servira de compagnon où que vous
-                  soyez dans le but de participer à votre développement
-                  personnel, à l’augmentation de votre énergie quotidiennement,
-                  à un boost…etc
+                  </Link>
+                  {
+                    " de ta nouvelle maison. Ici, tu découvriras nos créations avec des saveurs uniques et entièrement personnalisables. Sur précommande et sous devis. Vos commandes sont accompagnées de cartes thématiques qui vous servira de compagnon où que vous soyez dans le but de participer à votre développement  personnel, à l’augmentation de votre énergie quotidiennement, à un boost…etc "
+                  }
                 </p>
               </div>
               <div
@@ -182,9 +175,12 @@ export default function Home() {
                   découverte de soi, business , réussite , accomplissement. Mon
                   engagement va bien au-delà des plaisirs sucrés ! Je crois en
                   l'épanouissement personnel et surtout à l’accomplissement de
-                  soi… c’est pourquoi je propose des <Link className="text-pink-900" href={'/programme'}>{'programmes'}</Link>  conçus pour nous
-                  aider à atteindre les sommets de nous-mêmes, parfois négligés
-                  ou méconnus.
+                  soi… c’est pourquoi je propose des{" "}
+                  <Link className="text-pink-900" href={"/programme"}>
+                    {"programmes"}
+                  </Link>{" "}
+                  conçus pour nous aider à atteindre les sommets de nous-mêmes,
+                  parfois négligés ou méconnus.
                 </p>
 
                 <div
