@@ -6,7 +6,7 @@
       "cake": "Cake"
     },
     "sousTitre": "Pâtisserie & croissance personelle",
-    "boutton": "Programme"
+    "boutton": { "text": " Programme ", "link": "/programme" }
   },
   "about": {
     "titre": "Hello chers Honorable !",
