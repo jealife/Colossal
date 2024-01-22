@@ -12,7 +12,7 @@ export default function page() {
             <h1
               className="text-slate-50  text-7xl md:text-[49px] font-bold tracking-tighter leading-[1em] "
               data-aos="fade-up"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               Atteindre son sommet.
@@ -26,7 +26,7 @@ export default function page() {
           <h3
             className=" text-2xl text-pink-900  "
             data-aos="fade-in"
-            data-aos-duration="800"
+            data-aos-duration="500"
             data-aos-delay="200"
           >
             Bienvenue dans le Programme "Atteindre Son Sommet"!
@@ -38,7 +38,7 @@ export default function page() {
             <p
               className="text-[18px] text-slate-800  leading-[1.5em] font-normal"
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="300"
             >
               Tu dois savoir que je ne suis pas une agence de marketing &
@@ -63,7 +63,7 @@ export default function page() {
             <h3
               className="text-2xl text-slate-900  font-semibold "
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               À qui ce programme s’adresse t-il ?
@@ -77,7 +77,7 @@ export default function page() {
             <p
               className="text-[18px] text-slate-950  leading-[1.5em] font-normal mt-3"
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               Le programme{" "}
@@ -91,7 +91,7 @@ export default function page() {
               <li
                 className="mt-2"
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 Si tu as un projet que tu aimerais mettre en lumière sur
@@ -99,14 +99,14 @@ export default function page() {
               </li>
               <li
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 Si tu as une idée que tu n’arrives pas à développer
               </li>
               <li
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 Si tu ne comprends rien du fonctionnement de l’algorithme
@@ -114,7 +114,7 @@ export default function page() {
               </li>
               <li
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 Si tu n’arrives pas à créer tes propres visuels avec Canva ou
@@ -123,7 +123,7 @@ export default function page() {
               </li>
               <li
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 Si tu as l’impression de stagner malgré tous tes efforts
@@ -132,7 +132,7 @@ export default function page() {
             <p
               className="text-[18px] text-slate-950  leading-[1.5em] font-normal mt-3"
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               Tu es au bon endroit !

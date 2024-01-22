@@ -6,13 +6,13 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-dvh  flex-col items-center justify-between overflow-x-hidden">
-      <div className="w-full h-dvh md:h-[780px] items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-fixed bg-[url('https://images.unsplash.com/photo-1667503313783-6999f778a995?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
+      <div className="w-full h-dvh md:h-[780px] items-center justify-center  font-mono text-sm flex flex-col flex-wrap gap-3 bg-center bg-cover bg-fixed bg-[url('https://images.unsplash.com/photo-1611497406092-4bc22c54b322?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] md:bg-[url('https://images.unsplash.com/photo-1512223792601-592a9809eed4?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] ">
         <div className="hero-wrapper-overlay  py-24 px-24 sm:px-[20px]   w-full h-dvh md:h-[780px] items-center justify-center  font-mono text-sm flex flex-col bg-gray-950/50">
           <div class=" max-w-2xl md:w-full  text-pretty  text-slate-50 flex flex-col items-center gap-5 text-center ">
             <h1
               className="  text-7xl md:text-[49px] font-bold tracking-tighter leading-[1em] "
               data-aos="fade-up"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               {data?.hero.titre.colossal}
@@ -23,7 +23,7 @@ export default function Home() {
             <p
               className=" text-slate-300 text-[24px] leading-[1.2em] "
               data-aos="fade-up"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="200"
             >
               {data?.hero.sousTitre}
@@ -32,7 +32,7 @@ export default function Home() {
               href={data?.hero.boutton.link}
               className=" rounded-md font-semibold text-gray-950 px-3 py-2 bg-slate-50 w-max hover:bg-pink-950 duration-500  hover:text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 "
               data-aos="fade-up"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="300"
             >
               {data?.hero.boutton.text}
@@ -50,7 +50,7 @@ export default function Home() {
             <h2
               className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               {data?.about.titre}
@@ -59,7 +59,7 @@ export default function Home() {
             <p
               className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               {data?.about.intro}
@@ -69,7 +69,7 @@ export default function Home() {
               <h4
                 className="text-gray-950 text-xl"
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 {data?.about.sousTitre1}
@@ -78,7 +78,7 @@ export default function Home() {
                 <li
                   className="flex gap-4 items-center"
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
@@ -87,7 +87,7 @@ export default function Home() {
                 <li
                   className="flex gap-4 items-center"
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-2xl text-pink-900" />
@@ -96,7 +96,7 @@ export default function Home() {
                 <li
                   className="flex gap-4 items-start "
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   <AiTwotoneStar className="text-3xl sm:text-6xl text-pink-900" />
@@ -111,7 +111,7 @@ export default function Home() {
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {data?.about.cake.titre.colossal}{" "}
@@ -125,7 +125,7 @@ export default function Home() {
                 <p
                   className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {data?.about.cake.content.debut}
@@ -138,7 +138,7 @@ export default function Home() {
               <div
                 className="image"
                 data-aos="fade-in"
-                data-aos-duration="800"
+                data-aos-duration="500"
                 data-aos-delay="100"
               >
                 <Image
@@ -155,7 +155,7 @@ export default function Home() {
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {data?.about.mind.titre.colossal}
@@ -169,7 +169,7 @@ export default function Home() {
                 <p
                   className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {data?.about.mind.content.debut}
@@ -181,7 +181,7 @@ export default function Home() {
 
                 <div
                   data-aos="fade-in"
-                  data-aos-duration="800"
+                  data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   <Image
@@ -198,7 +198,7 @@ export default function Home() {
             <p
               className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               {data?.about.endAbout.content.one}
@@ -209,7 +209,7 @@ export default function Home() {
               href={data?.about.endAbout.boutton.link}
               className=" rounded-md font-semibold hover:text-gray-950 px-3 py-2 hover:bg-slate-50 w-max bg-pink-950 duration-500  text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 "
               data-aos="fade-in"
-              data-aos-duration="800"
+              data-aos-duration="500"
               data-aos-delay="100"
             >
               {data?.about.endAbout.boutton.text}

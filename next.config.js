@@ -3,7 +3,7 @@ const nextConfig = {}
 
 module.exports ={
     images: {
-        domains: ['github.com','images.unsplash.com','pushy-mapusaurus-373.notion.site'],
+        domains: ['plus.unsplash.com','images.unsplash.com','pushy-mapusaurus-373.notion.site','cdn.pixabay.com'],
     },
-    nextConfig
+    nextConfig,
 } 
