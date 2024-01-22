@@ -201,7 +201,9 @@ export default function Home() {
               data-aos-duration="800"
               data-aos-delay="100"
             >
-              {data?.about.endAbout.content}
+              {data?.about.endAbout.content.one}
+              <br />
+              {data?.about.endAbout.content.two}
             </p>
             <Link
               href={data?.about.endAbout.boutton.link}

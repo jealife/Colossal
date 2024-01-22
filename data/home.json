@@ -44,7 +44,10 @@
       "imageUrl": "/assets/images/leaves.jpg"
     },
     "endAbout": {
-      "content": "Tu l’as bien compris , Colossal t’aide à effectuer le voyage introspectif qui te permettra de te réaligner avec ta vision afin de la développer. Cette passion ou aspiration qui fait battre ton cœur et qui est lié quelque part à ta mission de vie. Et ce , par divers programmes. <br/> Alors ? Es-tu prêt(e) à t’embarquer dans cette aventure spéciale entre deux mondes uniques ? Découvre nos programmes et continuons ensemble la marche vers de nouveaux sommets !",
+      "content":{
+        "one":"Tu l’as bien compris , Colossal t’aide à effectuer le voyage introspectif qui te permettra de te réaligner avec ta vision afin de la développer. Cette passion ou aspiration qui fait battre ton cœur et qui est lié quelque part à ta mission de vie. Et ce , par divers programmes.",
+        "two":"Alors ? Es-tu prêt(e) à t’embarquer dans cette aventure spéciale entre deux mondes uniques ? Découvre nos programmes et continuons ensemble la marche vers de nouveaux sommets !"
+      } ,
       "boutton": {
         "link": "/programme",
         "text": "Découvrir Nos Programmes"
