@@ -109,7 +109,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer bg-pink-950 px-4 py-9 rounded-md grid grid-cols-3 gap-4  sm:grid-cols-1 border-t  border-slate-500/30">
+        <div className="footer bg-pink-950 px-4 py-9 rounded-lg grid grid-cols-3 gap-4  sm:grid-cols-1 border-t  border-slate-500/30">
           <div className="flex flex-col gap-3">
             <div className="logo">
               <Image src={logo} width={100} alt="Logo Clossal" />

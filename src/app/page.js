@@ -111,7 +111,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="pt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-md">
+            <div className="pt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
