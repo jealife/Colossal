@@ -1,4 +1,5 @@
 {
-  "/page": "app/page.js",
-  "/patisserie/le-comite-des-gouteurs/page": "app/patisserie/le-comite-des-gouteurs/page.js"
+  "/not-found": "app/not-found.js",
+  "/programme/page": "app/programme/page.js",
+  "/page": "app/page.js"
 }
