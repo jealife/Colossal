@@ -112,7 +112,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="pt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
+            <div className="mt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
@@ -154,7 +154,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="pt-4 grid  g md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
+            <div className="mt-5 grid  g md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
@@ -165,7 +165,6 @@ export default function Home() {
                   Colossal<span className="text-yellow-500"> Mind</span> :
                   Croissance personnelle, Glow up, Accomplissement
                 </h2>
-                
 
                 <p
                   className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
@@ -181,18 +180,7 @@ export default function Home() {
                   l'épanouissement personnel et surtout à l’accomplissement de
                   soi…
                 </p>
-                <div
-                  data-aos="fade-in"
-                  data-aos-duration="800"
-                  data-aos-delay="100"
-                >
-                  <img
-                    src='https://cdn.pixabay.com/photo/2020/12/14/15/47/leaves-5831243_1280.jpg'
-                    width={300}
-                    className="md:w-full w-96xl md:h-56 float-end   md:block rounded-md "
-                  />
-                </div>
-                
+
                 <p
                   className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
                   data-aos="fade-in"
@@ -210,6 +198,17 @@ export default function Home() {
                   entre deux mondes uniques ? Découvre nos programmes et
                   continuons ensemble la marche vers de nouveaux sommets !
                 </p>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="800"
+                  data-aos-delay="100"
+                >
+                  <Image
+                    src={leaves}
+                    width={600}
+                    className="md:w-full h-56  md:h-56  object-cover  md:block rounded-md "
+                  />
+                </div>
               </div>
             </div>
           </div>
