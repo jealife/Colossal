@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import woman from "../../../public/assets/images/Woman.png";
+// import woman from "../../../public/assets/images/Woman.png";
 
 export default function page() {
   return (
@@ -69,7 +69,9 @@ export default function page() {
               À qui ce programme s’adresse t-il ?
             </h3>
             <Image
-              src={woman}
+              src={"/assets/images/Woman.png"}
+              width={500}
+              height={500}
               className="w-full md:w-52 h-full hidden md:block"
             />
             <p
@@ -137,7 +139,12 @@ export default function page() {
             </p>
           </div>
           <div className="block">
-            <Image src={woman} className="w-full h-full md:hidden" />
+            <Image
+              src={"/assets/images/Woman.png"}
+              height={500}
+              width={500}
+              className="w-full h-full md:hidden"
+            />
           </div>
         </div>
       </div>
