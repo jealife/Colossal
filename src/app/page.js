@@ -220,9 +220,9 @@ export default function Home() {
             <Link
               href="/programme"
               className=" rounded-md font-semibold hover:text-gray-950 px-3 py-2 hover:bg-slate-50 w-max bg-pink-950 duration-500  text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 "
-              data-aos="fade-up"
+              data-aos="fade-in"
               data-aos-duration="800"
-              data-aos-delay="300"
+              data-aos-delay="100"
             >
               Découvrir Nos Programmes
             </Link>
