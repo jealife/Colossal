@@ -117,8 +117,8 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Colossal<span className="text-yellow-500"> Cake</span> :
-                  Patisserie, Plaisirs gourmands
+                  {data?.about.titre2.colossal} <span className="text-yellow-500"> {data?.about.titre2.cake} </span>
+                  {data?.about.titre2.suite} 
                 </h2>
 
                 <p
@@ -127,14 +127,11 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Pour commencer , comme tu l’as certainement deviner ,Colossal
-                  Cake représente la partie{" "}
+                  {data?.about.content.debut} 
                   <Link className="text-pink-900" href={"/patisserie"}>
-                    {"pâtisserie"}
+                  {data?.about.content.lien} 
                   </Link>
-                  {
-                    " de ta nouvelle maison. Ici, tu découvriras nos créations avec des saveurs uniques et entièrement personnalisables. Sur précommande et sous devis. Vos commandes sont accompagnées de cartes thématiques qui vous servira de compagnon où que vous soyez dans le but de participer à votre développement  personnel, à l’augmentation de votre énergie quotidiennement, à un boost…etc "
-                  }
+                  {data?.about.content.fin} 
                 </p>
               </div>
               <div
@@ -144,8 +141,9 @@ export default function Home() {
                 data-aos-delay="100"
               >
                 <Image
-                  src={carteFateau}
+                  src={data?.about.imageUrl} 
                   width={300}
+                  height={300}
                   className="md:w-full md:h-56 h-full   md:block rounded-md object-cover"
                 />
               </div>
