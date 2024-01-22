@@ -46,7 +46,7 @@ export default function Home() {
         id="apropos"
       >
         <div className="about-wrapper max-w-5xl py-20 md:py-16 px-24 sm:px-[20px]   w-full">
-          <div className="w-full flex justify-start flex-col gap-4 ">
+          <div className="w-full flex justify-start flex-col gap-6 ">
             <h2
               className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
               data-aos="fade-in"
@@ -103,7 +103,7 @@ export default function Home() {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  <AiTwotoneStar className="text-4xl sm:text-6xl text-pink-900" />
+                  <AiTwotoneStar className="text-3xl sm:text-6xl text-pink-900" />
                   On allume pas une lampe pour la mettre sous le boisseau , mais
                   sur le chandelier et elle éclaire tout ceux qui sont dans la
                   maison.
@@ -111,8 +111,8 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-1 gap-5">
-              <div className="w-full flex justify-start flex-col gap-4">
+            <div className="grid grid-cols-3 md:grid-cols-1 gap-5">
+              <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
                   className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
                   data-aos="fade-in"
@@ -142,7 +142,7 @@ export default function Home() {
                 <Image
                   src={patisserie}
                   width={300}
-                  className="md:w-full md:h-56 h-full  md:block rounded-md object-cover"
+                  className="md:w-full md:h-56 h-full   md:block rounded-md object-cover"
                 />
               </div>
             </div>
