@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiTwotoneStar } from "react-icons/ai";
 
-import patisserie from "../../public/assets/images/patisserie.jpeg";
+import carteFateau from "../../public/assets/images/carteFateau.jpeg";
 import leaves from "../../public/assets/images/leaves.jpg";
 
 export default function Home() {
@@ -151,7 +151,7 @@ export default function Home() {
                 data-aos-delay="100"
               >
                 <Image
-                  src={patisserie}
+                  src={carteFateau}
                   width={300}
                   className="md:w-full md:h-56 h-full   md:block rounded-md object-cover"
                 />
