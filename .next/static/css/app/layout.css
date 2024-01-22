@@ -1020,6 +1020,9 @@ video {
 .pt-5 {
   padding-top: 1.25rem;
 }
+.pt-12 {
+  padding-top: 3rem;
+}
 .text-left {
   text-align: left;
 }
@@ -1257,6 +1260,10 @@ body::-webkit-scrollbar-thumb {
 .hover\:text-yellow-500:hover {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+.hover\:text-gray-950:hover {
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
 }
 .hover\:underline:hover {
   text-decoration-line: underline;

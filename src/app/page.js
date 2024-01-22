@@ -178,26 +178,11 @@ export default function Home() {
                   découverte de soi, business , réussite , accomplissement. Mon
                   engagement va bien au-delà des plaisirs sucrés ! Je crois en
                   l'épanouissement personnel et surtout à l’accomplissement de
-                  soi…
+                  soi… c’est pourquoi je propose des programmes conçus pour nous
+                  aider à atteindre les sommets de nous-mêmes, parfois négligés
+                  ou méconnus.
                 </p>
 
-                <p
-                  className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
-                  data-aos="fade-in"
-                  data-aos-duration="800"
-                  data-aos-delay="100"
-                >
-                  c’est pourquoi je propose des programmes conçus pour nous
-                  aider à atteindre les sommets de nous-mêmes, parfois négligés
-                  ou méconnus. Tu l’as bien compris , Colossal t’aide à
-                  effectuer le voyage introspectif qui te permettra de te
-                  réaligner avec ta vision afin de la développer. Cette passion
-                  ou aspiration qui fait battre ton cœur et qui est lié quelque
-                  part à ta mission de vie. Et ce , par divers programmes. Alors
-                  ? Es-tu prêt(e) à t’embarquer dans cette aventure spéciale
-                  entre deux mondes uniques ? Découvre nos programmes et
-                  continuons ensemble la marche vers de nouveaux sommets !
-                </p>
                 <div
                   data-aos="fade-in"
                   data-aos-duration="800"
@@ -209,9 +194,37 @@ export default function Home() {
                     className="md:w-full h-56  md:h-56  object-cover  md:block rounded-md "
                   />
                 </div>
+                
               </div>
+              
             </div>
           </div>
+          <div className="pt-12 flex flex-col gap-5">
+                  <p
+                    className="text-[18px] text-slate-900  leading-[1.5em] font-normal "
+                    data-aos="fade-in"
+                    data-aos-duration="800"
+                    data-aos-delay="100"
+                  >
+                    Tu l’as bien compris , Colossal t’aide à effectuer le voyage
+                    introspectif qui te permettra de te réaligner avec ta vision
+                    afin de la développer. Cette passion ou aspiration qui fait
+                    battre ton cœur et qui est lié quelque part à ta mission de
+                    vie. Et ce , par divers programmes. Alors ? Es-tu prêt(e) à
+                    t’embarquer dans cette aventure spéciale entre deux mondes
+                    uniques ? Découvre nos programmes et continuons ensemble la
+                    marche vers de nouveaux sommets !
+                  </p>
+                  <Link
+                    href="/programme"
+                    className=" rounded-md font-semibold hover:text-gray-950 px-3 py-2 hover:bg-slate-50 w-max bg-pink-950 duration-500  text-slate-50 hover:shadow-xl hover:shadow-pink-200/30 "
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Découvrir Nos Programmes
+                  </Link>
+                </div>
         </div>
       </div>
     </main>
