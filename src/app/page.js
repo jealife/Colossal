@@ -115,7 +115,7 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   {data?.about.cake.titre.colossal}
-                  <span className="text-yellow-500">
+                  <span className="text-pink-900">
                     
                     {data?.about.cake.titre.cake}
                   </span>
@@ -159,7 +159,7 @@ export default function Home() {
                   data-aos-delay="100"
                 >
                   {data?.about.mind.titre.colossal}
-                  <span className="text-yellow-500">
+                  <span className="text-pink-900">
                     
                     {data?.about.mind.titre.mind}
                   </span>
