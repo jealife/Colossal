@@ -48,7 +48,7 @@ export default function Home() {
         <div className="about-wrapper max-w-5xl py-20 md:py-20 px-24 sm:px-[20px]   w-full">
           <div className="w-full flex justify-start flex-col gap-6 ">
             <h2
-              className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
+              className="text-4xl text-slate-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
               data-aos="fade-in"
               data-aos-duration="500"
               data-aos-delay="100"
@@ -106,18 +106,18 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="mt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
+            <div className="mt-4 grid grid-cols-3 md:grid-cols-1 gap-5 border border-solid border-gray-300 px-5 sm:px-3 py-8 rounded-lg">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
-                  className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
+                  className="text-4xl text-slate-900  md:text-[40px] font-semibold tracking-tighter leading-[1em]"
                   data-aos="fade-in"
                   data-aos-duration="500"
                   data-aos-delay="100"
                 >
-                  {data?.about.cake.titre.colossal}{" "}
+                  {data?.about.cake.titre.colossal}
                   <span className="text-yellow-500">
-                    {" "}
-                    {data?.about.cake.titre.cake}{" "}
+                    
+                    {data?.about.cake.titre.cake}
                   </span>
                   {data?.about.cake.titre.suite}
                 </h2>
@@ -150,17 +150,17 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-5 grid  g md:grid-cols-1 gap-5 border border-solid border-gray-600 px-5 sm:px-3 py-8 rounded-lg">
+            <div className="mt-5 grid  g md:grid-cols-1 gap-5 border border-solid border-gray-300 px-5 sm:px-3 py-8 rounded-lg">
               <div className="w-full flex justify-start flex-col gap-4 col-span-2">
                 <h2
-                  className="text-4xl text-pink-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
+                  className="text-4xl text-slate-900  md:text-[40px] font-semibold tracking-tighter leading-[1em]"
                   data-aos="fade-in"
                   data-aos-duration="500"
                   data-aos-delay="100"
                 >
                   {data?.about.mind.titre.colossal}
                   <span className="text-yellow-500">
-                    {" "}
+                    
                     {data?.about.mind.titre.mind}
                   </span>
                   {data?.about.mind.titre.suite}

@@ -20,7 +20,7 @@
     "cake": {
       "titre": {
         "colossal": "Colossal",
-        "cake": "Cake",
+        "cake": " Cake",
         "suite": ": Patisserie, Plaisirs gourmands"
       },
       "content": {
@@ -33,7 +33,7 @@
     "mind": {
       "titre": {
         "colossal": "Colossal",
-        "mind": "Mind",
+        "mind": " Mind",
         "suite": ": Croissance personnelle, Glow up, Accomplissement"
       },
       "content": {
