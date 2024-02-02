@@ -16,7 +16,7 @@ export const metadata = {
   title: "Colossal Mind & Cake",
   description:
     "PATISSERIE & CROISSANCE PERSONNELLE. Bienvenue dans l’univers  de Colossal Mind And Cake.",
-  keywords: ["Pâtisserie", "croissance", "Personnel", "Developpement"],
+  keywords: ["Colossal Mind & Cake","Pâtisserie", "croissance", "Personnel", "Developpement"],
   openGraph: {
     icon: "/logo.png",
     images:
@@ -32,10 +32,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <Head>
+        <title>Colossal Mind & Cake</title>
         <meta
           name="google-site-verification"
           content="aoQMnoO7pLDZHfj-emWwo1M44mGdPA2eDwOnxmdaoY8"
-        />{" "}
+        />
       </Head>
       <body className={inter.className}>
         <header
