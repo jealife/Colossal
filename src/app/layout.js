@@ -1,4 +1,6 @@
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Nav from "@/components/navigation/Nav";
 import Head from "next/head";
@@ -49,6 +51,7 @@ export default function RootLayout({ children }) {
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>
         <Footer />
+          <Analytics/>
       </body>
     </html>
   );
