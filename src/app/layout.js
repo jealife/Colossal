@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
@@ -18,7 +18,13 @@ export const metadata = {
   title: "Colossal Mind & Cake",
   description:
     "PATISSERIE & CROISSANCE PERSONNELLE. Bienvenue dans l’univers  de Colossal Mind And Cake.",
-  keywords: ["Colossal Mind & Cake","Pâtisserie", "croissance", "Personnel", "Developpement"],
+  keywords: [
+    "Colossal Mind & Cake",
+    "Pâtisserie",
+    "croissance",
+    "Personnel",
+    "Developpement",
+  ],
   openGraph: {
     icon: "/logo.png",
     images:
@@ -51,7 +57,7 @@ export default function RootLayout({ children }) {
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>
         <Footer />
-          <Analytics/>
+        <Analytics />
       </body>
     </html>
   );
