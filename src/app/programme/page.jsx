@@ -24,7 +24,7 @@ export default function page() {
       <div className="px-24 py-4 sm:px-[20px] max-w-5xl flex flex-col gap-10 ">
         <div className="text-center  font-semibold text-[16px] leading-[1.2em]">
           <h3
-            className=" text-2xl text-pink-900  "
+            className=" text-2xl text-gray-900-900  "
             data-aos="fade-in"
             data-aos-duration="500"
             data-aos-delay="200"
