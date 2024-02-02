@@ -87,7 +87,7 @@ export default function page() {
               s’adresse aux entrepreneurs débutants qui souhaitent faire
               décoller leur activité sur Instagram.
             </p>
-            <ul class="max-w-md space-y-1 text-pink-900 list-disc list-inside  ">
+            <ul class="max-w-md space-y-1 text-gray-900 list-disc list-inside  ">
               <li
                 className="mt-2"
                 data-aos="fade-in"
