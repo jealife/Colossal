@@ -42,10 +42,10 @@ export default function Home() {
       </div>
 
       <div
-        className="about-section w-full flex flex-col items-center"
+        className=" w-full flex flex-col items-center"
         id="apropos"
       >
-        <div className="about-wrapper max-w-5xl py-20 md:py-20 px-24 sm:px-[20px]   w-full">
+        <div className="max-w-5xl py-20 md:py-20 px-24 sm:px-[20px]  w-full">
           <div className="w-full flex justify-start flex-col gap-6 ">
             <h2
               className="text-4xl text-slate-900 md:text-[40px] font-semibold tracking-tighter leading-[1em]"
