@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="overflow-x-hidden  flex flex-col items-center gap-20 justify-center w-full py-14">
       <div
-        className="w-full max-w-4xl flex flex-col items-center gap-14 px-4 "
+        className="w-full flex flex-col items-center gap-14 px-4 "
         x-data="{}"
         x-init="$nextTick(() => {
           let ul = $refs.logos;
@@ -109,80 +109,82 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div className="footer bg-pink-950 px-4 py-9 rounded-lg grid grid-cols-3 gap-4  sm:grid-cols-1 border-t  border-slate-500/30">
-          <div className="flex flex-col gap-3">
-            <div className="logo">
-              <Image src={logo} width={100} alt="Logo Clossal" />
+        <div className="w-full bg-pink-950 px-4 py-9 rounded-lg  border-t  border-slate-500/30">
+          <div className="max-w-5xl mx-auto grid grid-cols-3 gap-6  sm:grid-cols-1">
+            <div className="flex flex-col gap-3">
+              <div className="logo">
+                <Image src={logo} width={100} alt="Logo Clossal" />
+              </div>
+              <div className="">
+                <p className="text-slate-300 text-md pr-10 sm:p-0">
+                  Bienvenue dans l’univers de Colossal Mind And Cake où deux de
+                  mes passions, la pâtisserie et le développement personnel se
+                  fusionnent.
+                </p>
+              </div>
             </div>
-            <div className="">
-              <p className="text-slate-300 text-md">
-                Bienvenue dans l’univers de Colossal Mind And Cake où deux de
-                mes passions, la pâtisserie et le développement personnel se
-                fusionnent.
-              </p>
+
+            <div className="links flex flex-col items-start text-left gap-3">
+              <h5 className="font-bold text-slate-50">Liens</h5>
+              <ul className="text-md text-slate-300 ">
+                <li>
+                  <Link
+                    href="/"
+                    className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
+                  >
+                    {" Accueil"}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/patisserie"
+                    className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
+                  >
+                    {" Pâtisserie"}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/programme"
+                    className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
+                  >
+                    {"Programme "}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/reconnect.me"
+                    className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
+                  >
+                    {" Reconnect.me"}
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/#apropos"
+                    className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
+                  >
+                    {"A propos"}
+                  </Link>
+                </li>
+              </ul>
             </div>
-          </div>
 
-          <div className="links flex flex-col items-start text-left gap-3">
-            <h5 className="font-bold text-slate-50">Liens</h5>
-            <ul className="text-md text-slate-300 ">
-              <li>
-                <Link
-                  href="/"
-                  className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
-                >
-                  {" Accueil"}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/patisserie"
-                  className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
-                >
-                  {" Pâtisserie"}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/programme"
-                  className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
-                >
-                  {"Programme "}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/reconnect.me"
-                  className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
-                >
-                  {" Reconnect.me"}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/#apropos"
-                  className="hover:text-pink-900 hover:underline underline-offset-1  duration-500"
-                >
-                  {"A propos"}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div className="links flex flex-col items-start text-left gap-3">
-            <h5 className="font-bold text-slate-50">Contact</h5>
-            <ul className=" flex gap-3 text-sm text-slate-300 ">
-              <li>
-                <Link href="https://wa.me/629109414">
-                  <FaWhatsapp className="text-2xl hover:text-pink-200 " />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA==">
-                  <FaInstagram className="text-2xl hover:text-pink-200 " />
-                </Link>
-              </li>
-            </ul>
+            <div className="links flex flex-col items-start text-left gap-3">
+              <h5 className="font-bold text-slate-50">Contact</h5>
+              <ul className=" flex gap-3 text-sm text-slate-300 ">
+                <li>
+                  <Link href="https://wa.me/629109414">
+                    <FaWhatsapp className="text-2xl hover:text-pink-200 " />
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.instagram.com/colossal_mindandcake?igsh=MzRlODBiNWFlZA==">
+                    <FaInstagram className="text-2xl hover:text-pink-200 " />
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
