@@ -20,7 +20,7 @@ export default function Nav() {
         <div className="menu flex items-center gap-3 md:hidden ">
           <Link
             href="/"
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/" ? "active" : ""
             }`}
           >
@@ -28,7 +28,7 @@ export default function Nav() {
           </Link>
           <Link
             href="/patisserie"
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/patisserie" ? "active" : ""
             }`}
           >
@@ -36,7 +36,7 @@ export default function Nav() {
           </Link>
           <Link
             href="/programme"
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/programme" ? "active" : ""
             }`}
           >
@@ -44,7 +44,7 @@ export default function Nav() {
           </Link>
           <Link
             href="/reconnect.me"
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/reconnect.me" ? "active" : ""
             }`}
           >
@@ -52,7 +52,7 @@ export default function Nav() {
           </Link>
           <Link
             href="/#apropos"
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/a-propos" ? "active" : ""
             }`}
           >
@@ -85,7 +85,7 @@ function MobileNav({ open, setOpen }) {
   const pathname = usePathname();
   return (
     <div
-      className={`absolute top-0 left-0 h-dvh w-screen bg-pink-950 transform ${
+      className={`absolute top-0 left-0 h-dvh w-screen bg-[#862d4a] transform ${
         open ? "-translate-x-0" : "-translate-x-full"
       } transition-transform duration-300 ease-in-out filter drop-shadow-sm px-5)  `}
     >
@@ -117,7 +117,7 @@ function MobileNav({ open, setOpen }) {
           <Link
             href="/"
             onClick={() => setOpen(!open)}
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/" ? "active" : ""
             }`}
           >
@@ -126,7 +126,7 @@ function MobileNav({ open, setOpen }) {
           <Link
             href="/patisserie"
             onClick={() => setOpen(!open)}
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/patisserie" ? "active" : ""
             }`}
           >
@@ -135,7 +135,7 @@ function MobileNav({ open, setOpen }) {
           <Link
             href="/programme"
             onClick={() => setOpen(!open)}
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/programme" ? "active" : ""
             }`}
           >
@@ -144,7 +144,7 @@ function MobileNav({ open, setOpen }) {
           <Link
             href="/reconnect.me"
             onClick={() => setOpen(!open)}
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/reconnect.me" ? "active" : ""
             }`}
           >
@@ -153,7 +153,7 @@ function MobileNav({ open, setOpen }) {
           <Link
             href="/#apropos"
             onClick={() => setOpen(!open)}
-            className={`link hover:text-yellow-500 duration-300 ${
+            className={`link hover:text-[#dbb34a] duration-300 ${
               pathname === "/a-propos" ? "active" : ""
             }`}
           >
